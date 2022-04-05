@@ -1,0 +1,69 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.navigateToURL",
+      "args": [
+        "[https://www.wikipedia.org/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "setTimeout",
+          "args": [
+            "{implicit=0}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.wikipedia.org/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2087
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.asserVisualText",
+      "args": [
+        "[The Free Encyclopedia]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open browser to webpage \"https://www.wikipedia.org/\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 12310,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I must see text \"The Free Encyclopedia\"",
+      "type": "TestStepFail",
+      "screenshot": "img/OpenWikipedia_f1y5x9tosfom7711.png",
+      "duration": 94,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Unknown mobile command 'checkpoint:text'. Only tap, scroll, selectPickerWheelValue, swipe, pinch, doubleTap, twoFingerTap, tapWithNumberOfTaps, touchAndHold, dragFromToForDuration, rotateElement, alert, setPasteboard, getPasteboard, source, getContexts, installApp, isAppInstalled, removeApp, launchApp, terminateApp, queryAppState, activateApp, viewportScreenshot, startPerfRecord, stopPerfRecord, installCertificate, startLogsBroadcast, stopLogsBroadcast, batteryInfo, deviceInfo, getDeviceTime, activeAppInfo, pressButton, enrollBiometric, sendBiometricMatch, isBiometricEnrolled, clearKeychains, getPermission, setPermission, getAppearance, setAppearance, siriCommand, deleteFile, deleteFolder commands are supported. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:22:b78f:9ba5:a56d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browserstack.appium_version: 1.17.0, browserstack.isTargetBased: true, browserstack.is_hub_canary: false, cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-14.4}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 14, os_version: 14.0, platform: MAC, platformName: MAC, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., securityToken: <<CQ_LAB_SECURITY_TOKEN>>, takesScreenshot: true, udid: 00008101-001E5D2C1A12001E, useXctestrunFile: true, user: <<CQ_LAB_USER>>, version: , wda_port: 8405, webStorageEnabled: false, webkitResponseTimeout: 20000}\nSession ID: 59c0d6cec3f4a1146bb1f3ff8492f0405e9f291e",
+          "type": "Fail",
+          "screenshot": null,
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.UnsupportedCommandException: Unknown mobile command 'checkpoint:text'. Only tap, scroll, selectPickerWheelValue, swipe, pinch, doubleTap, twoFingerTap, tapWithNumberOfTaps, touchAndHold, dragFromToForDuration, rotateElement, alert, setPasteboard, getPasteboard, source, getContexts, installApp, isAppInstalled, removeApp, launchApp, terminateApp, queryAppState, activateApp, viewportScreenshot, startPerfRecord, stopPerfRecord, installCertificate, startLogsBroadcast, stopLogsBroadcast, batteryInfo, deviceInfo, getDeviceTime, activeAppInfo, pressButton, enrollBiometric, sendBiometricMatch, isBiometricEnrolled, clearKeychains, getPermission, setPermission, getAppearance, setAppearance, siriCommand, deleteFile, deleteFolder commands are supported. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:22:b78f:9ba5:a56d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browserstack.appium_version: 1.17.0, browserstack.isTargetBased: true, browserstack.is_hub_canary: false, cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-14.4}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 14, os_version: 14.0, platform: MAC, platformName: MAC, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., securityToken: <<CQ_LAB_SECURITY_TOKEN>>, takesScreenshot: true, udid: 00008101-001E5D2C1A12001E, useXctestrunFile: true, user: <<CQ_LAB_USER>>, version: , wda_port: 8405, webStorageEnabled: false, webkitResponseTimeout: 20000}\nSession ID: 59c0d6cec3f4a1146bb1f3ff8492f0405e9f291e\n\tat .Then I must see text \"The Free Encyclopedia\"(src/main/resources/scenarios/01firstRun.feature:6)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:233)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:571)\n\tat com.quantum.utils.DeviceUtils.isText(DeviceUtils.java:268)\n\tat com.quantum.utils.DeviceUtils.assertVisualText(DeviceUtils.java:47)\n\tat com.quantum.steps.PerfectoApplicationSteps.asserVisualText(PerfectoApplicationSteps.java:436)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n"
+}

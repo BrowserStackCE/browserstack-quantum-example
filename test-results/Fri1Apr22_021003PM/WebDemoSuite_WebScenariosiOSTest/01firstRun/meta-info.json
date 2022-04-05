@@ -1,0 +1,27 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@first"
+        ],
+        "lineNo": 4,
+        "name": "open Wikipedia",
+        "reference": "src/main/resources/scenarios/01firstRun.feature",
+        "resultFileName": "OpenWikipedia",
+        "sign": "src.main.resources.scenarios.01firstRun.feature.open Wikipedia()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1648802403701,
+      "duration": 835,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "01firstRun"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "automationName": "Appium",
+      "browserName": "",
+      "cssSelectorsEnabled": true,
+      "javascriptEnabled": true,
+      "model": "iPhone.*",
+      "securityToken": "<<CQ_LAB_SECURITY_TOKEN>>",
+      "takesScreenshot": true,
+      "user": "<<CQ_LAB_USER>>"
+    },
+    "browser-actual-capabilities": {
+      "networkConnectionEnabled": "false",
+      "chrome": "{chromedriverVersion=99.0.4844.35 (f60a827ddb87f1c403e07713751a5551d5856ac0-refs/branch-heads/4844@{#579}), userDataDir=C:\\Windows\\proxy\\scoped_dir7892_1837382699}",
+      "timeouts": "{implicit=0, pageLoad=300000, script=30000}",
+      "pageLoadStrategy": "normal",
+      "unhandledPromptBehavior": "dismiss and notify",
+      "strictFileInteractability": "false",
+      "platform": "WINDOWS",
+      "proxy": "Proxy()",
+      "goog:chromeOptions": "{debuggerAddress=localhost:3557}",
+      "webdriver.remote.sessionid": "d72125e20a599c1ab5d2c6c53ad3db894936a9c9",
+      "webauthn:extension:credBlob": "true",
+      "acceptInsecureCerts": "false",
+      "browserVersion": "99.0.4844.51",
+      "browserName": "chrome",
+      "javascriptEnabled": "true",
+      "platformName": "WINDOWS",
+      "setWindowRect": "true",
+      "webauthn:extension:largeBlob": "true",
+      "webauthn:virtualAuthenticators": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0",
+      "qaf-Build-Time": "26-Jul-2020 22:16:34",
+      "qaf-Version": "3.0"
+    },
+    "run-parameters": {
+      "driver.capabilities.model": "iPhone.*",
+      "resources": "src/main/resources/common",
+      "baseurl": ""
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Eclipse Foundation",
+      "java.version": "11.0.12",
+      "os.arch": "x86_64",
+      "host": "Khalids-MacBook-Pro.local",
+      "os.name": "Mac OS X",
+      "user.name": "shaikhalid",
+      "os.version": "11.3"
+    }
+  },
+  "startTime": 1648803253777,
+  "endTime": 1648803266523
+}

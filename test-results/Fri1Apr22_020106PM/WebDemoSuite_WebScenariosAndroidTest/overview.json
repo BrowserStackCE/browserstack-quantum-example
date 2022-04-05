@@ -1,0 +1,47 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "01firstRun"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "automationName": "Appium",
+      "browserName": "",
+      "cssSelectorsEnabled": true,
+      "device": "iPhone 12",
+      "javascriptEnabled": true,
+      "os_version": "14",
+      "securityToken": "<<CQ_LAB_SECURITY_TOKEN>>",
+      "takesScreenshot": true,
+      "user": "<<CQ_LAB_USER>>"
+    },
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0",
+      "qaf-Build-Time": "26-Jul-2020 22:16:34",
+      "qaf-Version": "3.0"
+    },
+    "run-parameters": {
+      "resources": "src/main/resources/common",
+      "baseurl": "",
+      "driver.capabilities.os_version": "14",
+      "driver.capabilities.device": "iPhone 12"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Eclipse Foundation",
+      "java.version": "11.0.12",
+      "os.arch": "x86_64",
+      "host": "Khalids-MacBook-Pro.local",
+      "os.name": "Mac OS X",
+      "user.name": "shaikhalid",
+      "os.version": "11.3"
+    }
+  },
+  "startTime": 1648801866662,
+  "endTime": 1648801867502
+}

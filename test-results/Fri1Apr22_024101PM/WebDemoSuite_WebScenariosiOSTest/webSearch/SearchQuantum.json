@@ -1,0 +1,278 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I_am_on_Google_Search_Page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "setTimeout",
+          "args": [
+            "{implicit=0}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1030
+        },
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2597
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I_search_for",
+      "args": [
+        "[perfecto mobile quantum]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 5000",
+          "subLogs": [],
+          "duration": 79
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: q",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"5000\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 1076
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 5001",
+          "subLogs": [],
+          "duration": 67
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: q",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"5001\",\"value\":[\"perfecto mobile quantum\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 153
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//*[text()='perfecto mobile quantum'])[1], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:22:b78f:9ba5:a56d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browserstack.appium_version: 1.17.0, browserstack.isTargetBased: true, browserstack.is_hub_canary: false, cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-14.1}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 14, os_version: 14.0, platform: MAC, platformName: MAC, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., securityToken: <<CQ_LAB_SECURITY_TOKEN>>, takesScreenshot: true, udid: 00008101-001454292081401E, useXctestrunFile: true, user: <<CQ_LAB_USER>>, version: , wda_port: 8403, webStorageEnabled: false, webkitResponseTimeout: 20000}\nSession ID: 5350e6893a17652376efe545ac9f97604eacf9d5\n*** Element info: {Using=xpath, value=(//*[text()='perfecto mobile quantum'])[1]}",
+          "subLogs": [],
+          "duration": 118
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//*[text()='perfecto mobile quantum'])[1], using=xpath}"
+          ],
+          "result": "id: 5002",
+          "subLogs": [],
+          "duration": 65
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: (//*[text()='perfecto mobile quantum'])[1]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: (//*[text()='perfecto mobile quantum'])[1]",
+            "{\"id\":\"5002\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 90
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "it_should_have_in_search_results",
+      "args": [
+        "[perfecto]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=perfecto, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 86
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=perfecto, using=partial link text}"
+          ],
+          "result": "[id: 5003, id: 5004, id: 5005, id: 5006, id: 5007, id: 5008, id: 5009]",
+          "subLogs": [],
+          "duration": 125
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=perfecto, using=partial link text}"
+          ],
+          "result": "id: 5010",
+          "subLogs": [],
+          "duration": 157
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{\"id\":\"5010\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 43
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=perfecto, using=partial link text}"
+          ],
+          "result": "id: 5011",
+          "subLogs": [],
+          "duration": 1079
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{\"id\":\"5011\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 44
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I_am_on_Google_Search_Page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1716
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I am on Google Search Page",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 13116,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I search for \"perfecto mobile quantum\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2690,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then it should have \"perfecto\" in search results",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2568,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I am on Google Search Page",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1719,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

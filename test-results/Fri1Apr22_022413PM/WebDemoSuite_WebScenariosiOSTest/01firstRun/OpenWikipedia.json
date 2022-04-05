@@ -1,0 +1,69 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.navigateToURL",
+      "args": [
+        "[https://www.wikipedia.org/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "setTimeout",
+          "args": [
+            "{implicit=0}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 53
+        },
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.wikipedia.org/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2423
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.asserVisualText",
+      "args": [
+        "[The Free Encyclopedia]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open browser to webpage \"https://www.wikipedia.org/\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 10616,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I must see text \"The Free Encyclopedia\"",
+      "type": "TestStepFail",
+      "screenshot": "img/OpenWikipedia_1obuu0nso0p3m7710.png",
+      "duration": 108,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "javascript error: text is not defined\n  (Session info: chrome=99.0.4844.51)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:22:b78f:9ba5:a56d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.35 (f60a827ddb87f..., userDataDir: C:\\Windows\\proxy\\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:3557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: d72125e20a599c1ab5d2c6c53ad...}\nSession ID: d72125e20a599c1ab5d2c6c53ad3db894936a9c9",
+          "type": "Fail",
+          "screenshot": null,
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.JavascriptException: javascript error: text is not defined\n  (Session info: chrome=99.0.4844.51)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:22:b78f:9ba5:a56d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.35 (f60a827ddb87f..., userDataDir: C:\\Windows\\proxy\\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:3557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: d72125e20a599c1ab5d2c6c53ad...}\nSession ID: d72125e20a599c1ab5d2c6c53ad3db894936a9c9\n\tat .Then I must see text \"The Free Encyclopedia\"(src/main/resources/scenarios/01firstRun.feature:6)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:233)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:571)\n\tat com.quantum.utils.DeviceUtils.isText(DeviceUtils.java:268)\n\tat com.quantum.utils.DeviceUtils.assertVisualText(DeviceUtils.java:47)\n\tat com.quantum.steps.PerfectoApplicationSteps.asserVisualText(PerfectoApplicationSteps.java:436)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n"
+}
