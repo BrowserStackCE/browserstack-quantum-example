@@ -1,0 +1,171 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I_am_on_Google_Search_Page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "setTimeout",
+          "args": [
+            "{implicit=0}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 295
+        },
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2272
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I_search_for",
+      "args": [
+        "[perfecto mobile quantum]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 0.06811436345390876-1",
+          "subLogs": [],
+          "duration": 676
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: q",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"0.06811436345390876-1\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 407
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 0.06811436345390876-1",
+          "subLogs": [],
+          "duration": 647
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: q",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"0.06811436345390876-1\",\"value\":[\"perfecto mobile quantum\"]}"
+          ],
+          "result": "element not interactable\n  (Session info: chrome=96.0.4664.104)\n  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Linux 4.1.13-101.fc21.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: Appium, browser: chrome_android, browserName: chrome, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://204.1..., --disable-features=Translate], w3c: false}, chromedriverPort: 18087, cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: Samsung Galaxy S20, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G981B, deviceName: RFCN20BK17R, deviceOrientation: portrait, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: RFCN20BK17R, enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, loggingPrefs: org.openqa.selenium.logging..., mobile: {browser: mobile, version: Samsung Galaxy S20-10.0}, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orientation: PORTRAIT, orig_os: android, osVersion: 10, os_version: 10.0, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 10, realMobile: true, securityToken: <<CQ_LAB_SECURITY_TOKEN>>, skipServerInstallation: true, statBarHeight: 77, systemPort: 8207, takesScreenshot: true, udid: RFCN20BK17R, user: <<CQ_LAB_USER>>, version: , viewportRect: {height: 2101, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 8901f74fdb393ee358aef7dd51b8a4b28f380c62",
+          "subLogs": [],
+          "duration": 563
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "[id: 0.06811436345390876-1]",
+          "subLogs": [],
+          "duration": 627
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Then it should have \"perfecto\" in search results",
+      "args": [
+        "[perfecto]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I am on Google Search Page",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I am on Google Search Page",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 13894,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I search for \"perfecto mobile quantum\"",
+      "type": "TestStepFail",
+      "screenshot": "img/SearchQuantum_upumbihs0f2147441.png",
+      "duration": 3971,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "element not interactable\n  (Session info: chrome=96.0.4664.104)\n  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Linux 4.1.13-101.fc21.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: Appium, browser: chrome_android, browserName: chrome, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://204.1..., --disable-features=Translate], w3c: false}, chromedriverPort: 18087, cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: Samsung Galaxy S20, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G981B, deviceName: RFCN20BK17R, deviceOrientation: portrait, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: RFCN20BK17R, enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, loggingPrefs: org.openqa.selenium.logging..., mobile: {browser: mobile, version: Samsung Galaxy S20-10.0}, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orientation: PORTRAIT, orig_os: android, osVersion: 10, os_version: 10.0, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 10, realMobile: true, securityToken: <<CQ_LAB_SECURITY_TOKEN>>, skipServerInstallation: true, statBarHeight: 77, systemPort: 8207, takesScreenshot: true, udid: RFCN20BK17R, user: <<CQ_LAB_USER>>, version: , viewportRect: {height: 2101, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 8901f74fdb393ee358aef7dd51b8a4b28f380c62",
+          "type": "Fail",
+          "screenshot": null,
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then it should have \"perfecto\" in search results",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I am on Google Search Page",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome=96.0.4664.104)\n  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Linux 4.1.13-101.fc21.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: Appium, browser: chrome_android, browserName: chrome, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://204.1..., --disable-features=Translate], w3c: false}, chromedriverPort: 18087, cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: Samsung Galaxy S20, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G981B, deviceName: RFCN20BK17R, deviceOrientation: portrait, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: RFCN20BK17R, enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, loggingPrefs: org.openqa.selenium.logging..., mobile: {browser: mobile, version: Samsung Galaxy S20-10.0}, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orientation: PORTRAIT, orig_os: android, osVersion: 10, os_version: 10.0, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 10, realMobile: true, securityToken: <<CQ_LAB_SECURITY_TOKEN>>, skipServerInstallation: true, statBarHeight: 77, systemPort: 8207, takesScreenshot: true, udid: RFCN20BK17R, user: <<CQ_LAB_USER>>, version: , viewportRect: {height: 2101, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 8901f74fdb393ee358aef7dd51b8a4b28f380c62\n\tat .When I search for \"perfecto mobile quantum\"(src/main/resources/scenarios/webSearch.feature:7)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:255)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:276)\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\n\tat com.quantum.pages.GooglePage.search(GooglePage.java:35)\n\tat com.quantum.steps.GoogleStepDefs.I_search_for(GoogleStepDefs.java:28)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n"
+}

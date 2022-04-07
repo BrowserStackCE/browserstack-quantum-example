@@ -1,0 +1,43 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "clickOnSearchBox",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "setTimeout",
+          "args": [
+            "{implicit=0}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 385
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Click on Search box",
+      "type": "TestStepFail",
+      "screenshot": "img/WikiSearchMastercard_faslm1hh30a120468.png",
+      "duration": 19414,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "The class com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver of the given context doesn't implement io.appium.java_client.FindsByAccessibilityId nor io.appium.java_client.FindsByFluentSelector. Sorry. It is impossible to find something.",
+          "type": "Fail",
+          "screenshot": null,
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.IllegalArgumentException: The class com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver of the given context doesn't implement io.appium.java_client.FindsByAccessibilityId nor io.appium.java_client.FindsByFluentSelector. Sorry. It is impossible to find something.\n\tat .Given Click on Search box(src/main/resources/scenarios/wiki-search1.feature:4)\n\tat io.appium.java_client.MobileBy.formIllegalArgumentException(MobileBy.java:41)\n\tat io.appium.java_client.MobileBy.access$0(MobileBy.java:39)\n\tat io.appium.java_client.MobileBy$ByAccessibilityId.findElement(MobileBy.java:281)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:169)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:78)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat com.quantum.pages.WikipediaPage.click_on_search_box(WikipediaPage.java:30)\n\tat com.quantum.steps.WikipediaStepDefs.clickOnSearchBox(WikipediaStepDefs.java:13)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n"
+}

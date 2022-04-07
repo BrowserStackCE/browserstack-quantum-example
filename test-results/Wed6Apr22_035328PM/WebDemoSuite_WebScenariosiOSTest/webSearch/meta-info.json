@@ -1,0 +1,28 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebSearch",
+          "@Web"
+        ],
+        "lineNo": 5,
+        "name": "Search Quantum",
+        "reference": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "SearchQuantum",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Quantum()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1649240608185,
+      "duration": 4289,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

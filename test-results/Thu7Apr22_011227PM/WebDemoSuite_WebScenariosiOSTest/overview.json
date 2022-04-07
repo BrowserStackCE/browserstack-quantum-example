@@ -1,0 +1,89 @@
+{
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "automate"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "automationName": "Appium",
+      "browserName": "",
+      "cssSelectorsEnabled": true,
+      "device": "iPhone 12",
+      "javascriptEnabled": true,
+      "os_version": "14",
+      "securityToken": "<<CQ_LAB_SECURITY_TOKEN>>",
+      "takesScreenshot": true,
+      "user": "<<CQ_LAB_USER>>"
+    },
+    "browser-actual-capabilities": {
+      "browserstack.is_hub_canary": "false",
+      "webkitResponseTimeout": "20000",
+      "noReset": "true",
+      "deviceName": "iPhone 12",
+      "platform": "MAC",
+      "acceptSslCerts": "false",
+      "osVersion": "14",
+      "detected_language": "selenium/3.141.59 (java mac)",
+      "newCommandTimeout": "0",
+      "browser": "iphone",
+      "acceptSslCert": "false",
+      "automationName": "XCUITest",
+      "webStorageEnabled": "false",
+      "browserName": "safari",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "platformName": "MAC",
+      "udid": "00008101-001C68E12481401E",
+      "64bit": "false",
+      "networkConnectionEnabled": "false",
+      "orientation": "PORTRAIT",
+      "browserstack.appium_version": "1.17.0",
+      "os_version": "14.0",
+      "mobile": "{browser=mobile, version=iPhone 12-14.1}",
+      "databaseEnabled": "false",
+      "new_bucketing": "true",
+      "version": "",
+      "securityToken": "<<CQ_LAB_SECURITY_TOKEN>>",
+      "bootstrapPath": "/usr/local/.browserstack/config/wda_derived_data_00008101-001C68E12481401E_1.17.0/Build/Products",
+      "browserstack.isTargetBased": "true",
+      "safariIgnoreFraudWarning": "true",
+      "useXctestrunFile": "true",
+      "orig_os": "ios",
+      "realMobile": "true",
+      "locationContextEnabled": "false",
+      "deviceOrientation": "PORTRAIT",
+      "wda_port": "8404",
+      "device": "iphone",
+      "user": "<<CQ_LAB_USER>>",
+      "cssSelectorsEnabled": "true",
+      "safariInitialUrl": "http://mobile-internet-check.browserstack.com"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0",
+      "qaf-Build-Time": "26-Jul-2020 22:16:34",
+      "qaf-Version": "3.0"
+    },
+    "run-parameters": {
+      "resources": "src/main/resources/common",
+      "baseurl": "",
+      "driver.capabilities.os_version": "14",
+      "driver.capabilities.device": "iPhone 12"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Eclipse Foundation",
+      "java.version": "11.0.12",
+      "os.arch": "x86_64",
+      "host": "Khalids-MacBook-Pro.local",
+      "os.name": "Mac OS X",
+      "user.name": "shaikhalid",
+      "os.version": "11.3"
+    }
+  },
+  "startTime": 1649317347456,
+  "endTime": 1649317366310
+}

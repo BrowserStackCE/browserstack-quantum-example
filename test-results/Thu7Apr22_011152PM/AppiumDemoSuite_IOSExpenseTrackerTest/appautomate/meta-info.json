@@ -1,0 +1,28 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@appautomate",
+          "@App"
+        ],
+        "lineNo": 4,
+        "name": "Wiki Search - Mastercard",
+        "reference": "src/main/resources/scenarios/appautomate.feature",
+        "resultFileName": "WikiSearchMastercard",
+        "sign": "src.main.resources.scenarios.appautomate.feature.Wiki Search - Mastercard()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1649317312540,
+      "duration": 24202,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

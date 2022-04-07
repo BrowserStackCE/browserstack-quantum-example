@@ -1,0 +1,27 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@appium"
+        ],
+        "lineNo": 3,
+        "name": "Wiki Search - Mastercard",
+        "reference": "src/main/resources/scenarios/wiki-search1.feature",
+        "resultFileName": "WikiSearchMastercard",
+        "sign": "src.main.resources.scenarios.wiki-search1.feature.Wiki Search - Mastercard()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1649240929629,
+      "duration": 22,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

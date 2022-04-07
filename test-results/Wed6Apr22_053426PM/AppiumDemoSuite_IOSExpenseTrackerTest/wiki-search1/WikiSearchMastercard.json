@@ -1,0 +1,63 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "clickOnSearchBox",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "setTimeout",
+          "args": [
+            "{implicit=0}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 807
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=org.wikipedia.alpha:id/search_container, using=id}"
+          ],
+          "result": "id: 51be747e-d40c-4e17-b470-eff043a6e36d",
+          "subLogs": [],
+          "duration": 470
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: org.wikipedia.alpha:id/search_container",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: org.wikipedia.alpha:id/search_container",
+            "{\"id\":\"51be747e-d40c-4e17-b470-eff043a6e36d\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1956
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Click on Search box",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 23222,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

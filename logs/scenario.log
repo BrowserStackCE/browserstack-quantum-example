@@ -1974,3 +1974,1694 @@ Session ID: 637a6032254924d87610eb3e17cc98caad40403c
 16:50:53 command: quit[ param-1: {}]
 16:50:53 UI-driver tear down complete...
 16:50:53 Unable to create testng-failed-qas.xml
+21:32:16 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+21:32:16 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+21:32:16 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+21:32:16 scenario.file.loc[Ljava.lang.String;@3f446bef
+21:32:16 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+21:32:16 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+21:32:16 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+21:32:16 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+21:32:16 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+21:32:16 total test found: 1
+21:32:16 scenario.file.loc[Ljava.lang.String;@5f7f2382
+21:32:16 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+21:32:16 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+21:32:16 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+21:32:16 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+21:32:16 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+21:32:16 total test found: 1
+21:32:16 
+
+Executing scenario: Search Quantum - 
+21:32:16 
+
+Executing scenario: Search Quantum - 
+21:32:16 pkg: com.qmetry.qaf.automation.step
+21:32:16 pkg: com.qmetry.qaf.automation.step
+21:32:16 pkg: com.quantum.steps
+21:32:16 pkg: com.quantum.steps
+21:32:16 Invoking Teststep: Given I am on Google Search Page
+21:32:16 Invoking Teststep: Given I am on Google Search Page
+21:32:16 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://<<BROWSERSTACK_USERNAME>>:<<BROWSERSTACK_ACCESS_NAME>>@hub-cloud.browserstack.com/wd/hub,port:80
+21:32:16 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://<<BROWSERSTACK_USERNAME>>:<<BROWSERSTACK_ACCESS_NAME>>@hub-cloud.browserstack.com/wd/hub,port:80
+21:32:16 Driver: perfectoRemoteDriver
+21:32:16 Driver: perfectoRemoteDriver
+21:32:16 Direct Driver Connect
+21:32:16 Direct Driver Connect
+21:32:18 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://<<BROWSERSTACK_USERNAME>>:<<BROWSERSTACK_ACCESS_NAME>>@hub-cloud.browserstack.com/wd/hub,port:80
+21:32:18 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://<<BROWSERSTACK_USERNAME>>:<<BROWSERSTACK_ACCESS_NAME>>@hub-cloud.browserstack.com/wd/hub,port:80
+21:32:18 Driver: perfectoRemoteDriver
+21:32:18 Driver: perfectoRemoteDriver
+21:32:18 Direct Driver Connect
+21:32:18 Direct Driver Connect
+21:32:20 Failure Teststep: Given I am on Google Search Page
+com.qmetry.qaf.automation.step.StepInvocationException: Unable to Instantiate JavaStep: I_am_on_Google_Search_Page[]
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(com.quantum.steps.GoogleStepDefs:0) ~[classes/:?]
+21:32:20 Failure Teststep: Given I am on Google Search Page
+com.qmetry.qaf.automation.step.StepInvocationException: Unable to Instantiate JavaStep: I_am_on_Google_Search_Page[]
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(com.quantum.steps.GoogleStepDefs:0) ~[classes/:?]
+21:32:20 Completed Teststep: Given I am on Google Search Page
+21:32:20 Completed Teststep: Given I am on Google Search Page
+21:32:20 Competed scenario: Search Quantum with status FAILURE
+21:32:20 Competed scenario: Search Quantum with status FAILURE
+21:32:20 Unable to create testng-failed-qas.xml
+21:36:21 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+21:36:21 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+21:36:21 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+21:36:21 scenario.file.loc[Ljava.lang.String;@29e6eb25
+21:36:21 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+21:36:21 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+21:36:21 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+21:36:21 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+21:36:21 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+21:36:21 total test found: 1
+21:36:21 scenario.file.loc[Ljava.lang.String;@78461bc4
+21:36:21 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+21:36:21 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+21:36:21 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+21:36:21 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+21:36:21 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+21:36:21 total test found: 1
+21:36:21 
+
+Executing scenario: Search Quantum - 
+21:36:21 
+
+Executing scenario: Search Quantum - 
+21:36:21 pkg: com.qmetry.qaf.automation.step
+21:36:21 pkg: com.qmetry.qaf.automation.step
+21:36:22 pkg: com.quantum.steps
+21:36:22 pkg: com.quantum.steps
+21:36:22 Invoking Teststep: Given I am on Google Search Page
+21:36:22 Invoking Teststep: Given I am on Google Search Page
+21:36:22 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://<<BROWSERSTACK_USERNAME>>:<<BROWSERSTACK_ACCESS_NAME>>@hub-cloud.browserstack.com/wd/hub,port:80
+21:36:22 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://<<BROWSERSTACK_USERNAME>>:<<BROWSERSTACK_ACCESS_NAME>>@hub-cloud.browserstack.com/wd/hub,port:80
+21:36:22 Driver: perfectoRemoteDriver
+21:36:22 Driver: perfectoRemoteDriver
+21:36:22 Direct Driver Connect
+21:36:22 Direct Driver Connect
+21:36:24 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://<<BROWSERSTACK_USERNAME>>:<<BROWSERSTACK_ACCESS_NAME>>@hub-cloud.browserstack.com/wd/hub,port:80
+21:36:24 Driver: perfectoRemoteDriver
+21:36:24 Direct Driver Connect
+21:36:24 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://<<BROWSERSTACK_USERNAME>>:<<BROWSERSTACK_ACCESS_NAME>>@hub-cloud.browserstack.com/wd/hub,port:80
+21:36:24 Driver: perfectoRemoteDriver
+21:36:24 Direct Driver Connect
+21:36:25 Failure Teststep: Given I am on Google Search Page
+com.qmetry.qaf.automation.step.StepInvocationException: Unable to Instantiate JavaStep: I_am_on_Google_Search_Page[]
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(com.quantum.steps.GoogleStepDefs:0) ~[classes/:?]
+21:36:25 Completed Teststep: Given I am on Google Search Page
+21:36:25 Competed scenario: Search Quantum with status FAILURE
+21:36:26 Failure Teststep: Given I am on Google Search Page
+com.qmetry.qaf.automation.step.StepInvocationException: Unable to Instantiate JavaStep: I_am_on_Google_Search_Page[]
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(com.quantum.steps.GoogleStepDefs:0) ~[classes/:?]
+21:36:26 Completed Teststep: Given I am on Google Search Page
+21:36:26 Competed scenario: Search Quantum with status FAILURE
+21:36:26 Unable to create testng-failed-qas.xml
+15:53:27 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+15:53:27 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+15:53:27 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+15:53:27 scenario.file.loc[Ljava.lang.String;@1433046b
+15:53:27 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+15:53:27 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+15:53:27 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+15:53:27 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+15:53:27 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/wiki-search1.feature
+15:53:27 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+15:53:27 total test found: 1
+15:53:28 scenario.file.loc[Ljava.lang.String;@5f7f2382
+15:53:28 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+15:53:28 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+15:53:28 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+15:53:28 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+15:53:28 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/wiki-search1.feature
+15:53:28 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+15:53:28 total test found: 1
+15:53:28 
+
+Executing scenario: Search Quantum - 
+15:53:28 
+
+Executing scenario: Search Quantum - 
+15:53:28 pkg: com.qmetry.qaf.automation.step
+15:53:28 pkg: com.qmetry.qaf.automation.step
+15:53:28 pkg: com.quantum.steps
+15:53:28 pkg: com.quantum.steps
+15:53:28 Invoking Teststep: Given I am on Google Search Page
+15:53:28 Invoking Teststep: Given I am on Google Search Page
+15:53:28 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://<<BROWSERSTACK_USERNAME>>:<<BROWSERSTACK_ACCESS_KEY>>@hub-cloud.browserstack.com/wd/hub,port:80
+15:53:28 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://<<BROWSERSTACK_USERNAME>>:<<BROWSERSTACK_ACCESS_KEY>>@hub-cloud.browserstack.com/wd/hub,port:80
+15:53:28 Driver: perfectoRemoteDriver
+15:53:28 Driver: perfectoRemoteDriver
+15:53:28 Direct Driver Connect
+15:53:28 Direct Driver Connect
+15:53:30 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://<<BROWSERSTACK_USERNAME>>:<<BROWSERSTACK_ACCESS_KEY>>@hub-cloud.browserstack.com/wd/hub,port:80
+15:53:30 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://<<BROWSERSTACK_USERNAME>>:<<BROWSERSTACK_ACCESS_KEY>>@hub-cloud.browserstack.com/wd/hub,port:80
+15:53:30 Driver: perfectoRemoteDriver
+15:53:30 Driver: perfectoRemoteDriver
+15:53:30 Direct Driver Connect
+15:53:30 Direct Driver Connect
+15:53:32 Failure Teststep: Given I am on Google Search Page
+com.qmetry.qaf.automation.step.StepInvocationException: Unable to Instantiate JavaStep: I_am_on_Google_Search_Page[]
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(com.quantum.steps.GoogleStepDefs:0) ~[classes/:?]
+15:53:32 Failure Teststep: Given I am on Google Search Page
+com.qmetry.qaf.automation.step.StepInvocationException: Unable to Instantiate JavaStep: I_am_on_Google_Search_Page[]
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(com.quantum.steps.GoogleStepDefs:0) ~[classes/:?]
+15:53:32 Completed Teststep: Given I am on Google Search Page
+15:53:32 Completed Teststep: Given I am on Google Search Page
+15:53:32 Competed scenario: Search Quantum with status FAILURE
+15:53:32 Competed scenario: Search Quantum with status FAILURE
+15:53:32 Unable to create testng-failed-qas.xml
+15:56:09 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+15:56:09 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+15:56:09 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+15:56:09 scenario.file.loc[Ljava.lang.String;@36676c1a
+15:56:09 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+15:56:09 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+15:56:09 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+15:56:09 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+15:56:09 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/wiki-search1.feature
+15:56:09 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+15:56:09 total test found: 1
+15:56:09 scenario.file.loc[Ljava.lang.String;@42257bdd
+15:56:09 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+15:56:09 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+15:56:09 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+15:56:09 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+15:56:09 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/wiki-search1.feature
+15:56:09 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+15:56:09 total test found: 1
+15:56:09 
+
+Executing scenario: Search Quantum - 
+15:56:09 
+
+Executing scenario: Search Quantum - 
+15:56:09 pkg: com.qmetry.qaf.automation.step
+15:56:09 pkg: com.qmetry.qaf.automation.step
+15:56:09 pkg: com.quantum.steps
+15:56:09 pkg: com.quantum.steps
+15:56:09 Invoking Teststep: Given I am on Google Search Page
+15:56:09 Invoking Teststep: Given I am on Google Search Page
+15:56:09 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW@hub-cloud.browserstack.com/wd/hub,port:80
+15:56:09 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW@hub-cloud.browserstack.com/wd/hub,port:80
+15:56:09 Driver: perfectoRemoteDriver
+15:56:09 Driver: perfectoRemoteDriver
+15:56:09 Direct Driver Connect
+15:56:09 Direct Driver Connect
+15:56:19 Executing setTimeout parameters: {"implicit":0}
+15:56:19 command: setTimeout[ param-1: {implicit=0}] Result: null
+15:56:19 driver init done
+15:56:19 Executing get parameters: {"url":"https://www.google.com/"}
+15:56:21 command: get[ param-1: {url=https://www.google.com/}] Result: null
+15:56:21 Completed Teststep: Given I am on Google Search Page
+15:56:21 Invoking Teststep: When I search for "perfecto mobile quantum" with arguments: [perfecto mobile quantum]
+15:56:21 Executing setTimeout parameters: {"implicit":0}
+15:56:21 Executing findElement element: By.name: q parameters: {}
+15:56:21 Executing findElement parameters: {"using":"name","value":"q"}
+15:56:21 command: findElement[ param-1: {value=q, using=name}] Result: id: 5000
+15:56:21 command: findElement[ param-1: By.name: q param-2: {}] Result: OK
+15:56:21 Executing clearElement element: By.name: q parameters: {"id":"5000"}
+15:56:21 command: clearElement[ param-1: By.name: q param-2: {"id":"5000"}] Result: clearElement:null
+15:56:21 Executing findElement element: By.name: q parameters: {}
+15:56:21 Executing findElement parameters: {"using":"name","value":"q"}
+15:56:21 command: findElement[ param-1: {value=q, using=name}] Result: id: 5001
+15:56:21 command: findElement[ param-1: By.name: q param-2: {}] Result: OK
+15:56:21 Executing sendKeysToElement element: By.name: q parameters: {"id":"5001","value":["perfecto mobile quantum"]}
+15:56:21 command: setTimeout[ param-1: {implicit=0}] Result: null
+15:56:21 driver init done
+15:56:21 Executing get parameters: {"url":"https://www.google.com/"}
+15:56:21 command: sendKeysToElement[ param-1: By.name: q param-2: {"id":"5001","value":["perfecto mobile quantum"]}] Result: sendKeysToElement:null
+15:56:21 Executing findElement element: By.xpath: (//*[text()='perfecto mobile quantum'])[1] parameters: {}
+15:56:21 Executing findElement parameters: {"using":"xpath","value":"(//*[text()='perfecto mobile quantum'])[1]"}
+15:56:21 command: findElement[ param-1: {value=(//*[text()='perfecto mobile quantum'])[1], using=xpath}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browserstack.appium_version: 1.17.0, browserstack.isTargetBased: true, browserstack.is_hub_canary: false, cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-14.1}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 14, os_version: 14.0, platform: MAC, platformName: MAC, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., securityToken: <<CQ_LAB_SECURITY_TOKEN>>, takesScreenshot: true, udid: 00008101-0018545402E0001E, useXctestrunFile: true, user: <<CQ_LAB_USER>>, version: , wda_port: 8403, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 33f273add427e038ec98ef5f06ee9e92587e92fc
+*** Element info: {Using=xpath, value=(//*[text()='perfecto mobile quantum'])[1]}
+15:56:22 Executing findElement parameters: {"using":"xpath","value":"(//*[text()='perfecto mobile quantum'])[1]"}
+15:56:22 command: findElement[ param-1: {value=(//*[text()='perfecto mobile quantum'])[1], using=xpath}] Result: id: 5002
+15:56:22 command: findElement[ param-1: By.xpath: (//*[text()='perfecto mobile quantum'])[1] param-2: {}] Result: OK
+15:56:22 Executing clickElement element: By.xpath: (//*[text()='perfecto mobile quantum'])[1] parameters: {"id":"5002"}
+15:56:22 command: clickElement[ param-1: By.xpath: (//*[text()='perfecto mobile quantum'])[1] param-2: {"id":"5002"}] Result: clickElement:null
+15:56:22 Completed Teststep: When I search for "perfecto mobile quantum" with arguments: [perfecto mobile quantum]
+15:56:22 Invoking Teststep: Then it should have "perfecto" in search results with arguments: [perfecto]
+15:56:22 Executing findElements parameters: {"using":"partial link text","value":"perfecto"}
+15:56:22 command: findElements[ param-1: {value=perfecto, using=partial link text}] Result: []
+15:56:23 command: get[ param-1: {url=https://www.google.com/}] Result: null
+15:56:23 Completed Teststep: Given I am on Google Search Page
+15:56:23 Invoking Teststep: When I search for "perfecto mobile quantum" with arguments: [perfecto mobile quantum]
+15:56:23 Executing findElement element: By.name: q parameters: {}
+15:56:23 Executing findElement parameters: {"using":"name","value":"q"}
+15:56:23 Executing findElements parameters: {"using":"partial link text","value":"perfecto"}
+15:56:24 command: findElement[ param-1: {value=q, using=name}] Result: id: 0.06811436345390876-1
+15:56:24 command: findElement[ param-1: By.name: q param-2: {}] Result: OK
+15:56:24 Executing clearElement element: By.name: q parameters: {"id":"0.06811436345390876-1"}
+15:56:24 command: clearElement[ param-1: By.name: q param-2: {"id":"0.06811436345390876-1"}] Result: clearElement:null
+15:56:24 Executing findElement element: By.name: q parameters: {}
+15:56:24 Executing findElement parameters: {"using":"name","value":"q"}
+15:56:25 command: findElements[ param-1: {value=perfecto, using=partial link text}] Result: [id: 5003, id: 5004, id: 5005, id: 5006, id: 5007, id: 5008, id: 5009]
+15:56:25 Executing findElement element: By.partialLinkText: perfecto parameters: {}
+15:56:25 Executing findElement parameters: {"using":"partial link text","value":"perfecto"}
+15:56:25 command: findElement[ param-1: {value=perfecto, using=partial link text}] Result: id: 5010
+15:56:25 command: findElement[ param-1: By.partialLinkText: perfecto param-2: {}] Result: OK
+15:56:25 Executing isElementDisplayed element: By.partialLinkText: perfecto parameters: {"id":"5010"}
+15:56:25 command: isElementDisplayed[ param-1: By.partialLinkText: perfecto param-2: {"id":"5010"}] Result: isElementDisplayed:true
+15:56:25 Executing findElement element: By.partialLinkText: perfecto parameters: {}
+15:56:25 Executing findElement parameters: {"using":"partial link text","value":"perfecto"}
+15:56:25 command: findElement[ param-1: {value=perfecto, using=partial link text}] Result: id: 5011
+15:56:25 command: findElement[ param-1: By.partialLinkText: perfecto param-2: {}] Result: OK
+15:56:25 Executing isElementDisplayed element: By.partialLinkText: perfecto parameters: {"id":"5011"}
+15:56:25 command: findElement[ param-1: {value=q, using=name}] Result: id: 0.06811436345390876-1
+15:56:25 command: findElement[ param-1: By.name: q param-2: {}] Result: OK
+15:56:25 Executing sendKeysToElement element: By.name: q parameters: {"id":"0.06811436345390876-1","value":["perfecto mobile quantum"]}
+15:56:25 command: isElementDisplayed[ param-1: By.partialLinkText: perfecto param-2: {"id":"5011"}] Result: isElementDisplayed:true
+15:56:25 Completed Teststep: Then it should have "perfecto" in search results with arguments: [perfecto]
+15:56:25 Invoking Teststep: Then I am on Google Search Page
+15:56:25 Executing get parameters: {"url":"https://www.google.com/"}
+15:56:26 command: sendKeysToElement[ param-1: By.name: q param-2: {"id":"0.06811436345390876-1","value":["perfecto mobile quantum"]}] Result: element not interactable
+  (Session info: chrome=96.0.4664.104)
+  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Linux 4.1.13-101.fc21.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: Appium, browser: chrome_android, browserName: chrome, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://204.1..., --disable-features=Translate], w3c: false}, chromedriverPort: 18087, cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: Samsung Galaxy S20, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G981B, deviceName: RFCN20BK17R, deviceOrientation: portrait, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: RFCN20BK17R, enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, loggingPrefs: org.openqa.selenium.logging..., mobile: {browser: mobile, version: Samsung Galaxy S20-10.0}, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orientation: PORTRAIT, orig_os: android, osVersion: 10, os_version: 10.0, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 10, realMobile: true, securityToken: <<CQ_LAB_SECURITY_TOKEN>>, skipServerInstallation: true, statBarHeight: 77, systemPort: 8207, takesScreenshot: true, udid: RFCN20BK17R, user: <<CQ_LAB_USER>>, version: , viewportRect: {height: 2101, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 8901f74fdb393ee358aef7dd51b8a4b28f380c62
+15:56:26 Executing findElements parameters: {"using":"name","value":"q"}
+15:56:26 command: findElements[ param-1: {value=q, using=name}] Result: [id: 0.06811436345390876-1]
+15:56:26 Executing executeScript parameters: {"args":[{"element-6066-11e4-a52e-4f735466cecf":"0.06811436345390876-1","ELEMENT":"0.06811436345390876-1"}],"script":"arguments[0].scrollIntoView();"}
+15:56:27 command: get[ param-1: {url=https://www.google.com/}] Result: null
+15:56:27 Completed Teststep: Then I am on Google Search Page
+15:56:27 Competed scenario: Search Quantum with status SUCCESS
+15:56:27 Executing executeScript parameters: {"args":[],"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \"passed\", \"reason\": \"Test Passed!\"}}"}
+15:56:27 Failure Teststep: When I search for "perfecto mobile quantum" with arguments: [perfecto mobile quantum]
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.104)
+  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Linux 4.1.13-101.fc21.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: Appium, browser: chrome_android, browserName: chrome, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://204.1..., --disable-features=Translate], w3c: false}, chromedriverPort: 18087, cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: Samsung Galaxy S20, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G981B, deviceName: RFCN20BK17R, deviceOrientation: portrait, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: RFCN20BK17R, enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, loggingPrefs: org.openqa.selenium.logging..., mobile: {browser: mobile, version: Samsung Galaxy S20-10.0}, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orientation: PORTRAIT, orig_os: android, osVersion: 10, os_version: 10.0, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 10, realMobile: true, securityToken: <<CQ_LAB_SECURITY_TOKEN>>, skipServerInstallation: true, statBarHeight: 77, systemPort: 8207, takesScreenshot: true, udid: RFCN20BK17R, user: <<CQ_LAB_USER>>, version: , viewportRect: {height: 2101, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 8901f74fdb393ee358aef7dd51b8a4b28f380c62
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:255) ~[quantum-support-1.23.0.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:276) ~[qaf-3.0.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106) ~[selenium-remote-driver-3.141.59.jar:?]
+	at com.quantum.pages.GooglePage.search(GooglePage.java:35) ~[classes/:?]
+	at com.quantum.steps.GoogleStepDefs.I_search_for(GoogleStepDefs.java:28) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237) [qaf-3.0.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112) [testng-6.10.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:778) [qaf-3.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:632) [qaf-3.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421) [testng-6.10.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.10.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+15:56:27 Completed Teststep: When I search for "perfecto mobile quantum" with arguments: [perfecto mobile quantum]
+15:56:27 Competed scenario: Search Quantum with status FAILURE
+15:56:27 Executing screenshot parameters: {}
+15:56:28 Executing quit parameters: {}
+15:56:29 command: quit[ param-1: {}]
+15:56:29 UI-driver tear down complete...
+15:56:31 Executing executeScript parameters: {"args":[],"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \"failed\", \"reason\": \"Test Failed!\"}}"}
+15:56:32 Executing quit parameters: {}
+15:56:34 command: quit[ param-1: {}]
+15:56:34 UI-driver tear down complete...
+15:56:34 Unable to create testng-failed-qas.xml
+15:58:42 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+15:58:42 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+15:58:42 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+15:58:42 scenario.file.loc[Ljava.lang.String;@30f5a68a
+15:58:42 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+15:58:42 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+15:58:42 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+15:58:42 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+15:58:42 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/wiki-search1.feature
+15:58:42 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+15:58:42 total test found: 2
+15:58:42 Adding resources from: src/main/resources/ios
+15:58:42 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 1
+15:58:42 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 0
+15:58:42 
+
+Executing scenario: Verify Expense tracker Login - 
+15:58:42 pkg: com.qmetry.qaf.automation.step
+15:58:42 pkg: com.quantum.steps
+15:58:43 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+15:58:43 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW@hub-cloud.browserstack.com/wd/hub,port:80
+15:58:43 Driver: perfectoDriver
+15:58:43 Direct Driver Connect
+15:58:49 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:168) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:478) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:253) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:44) ~[qaf-3.0.0.jar:?]
+	at com.quantum.utils.DeviceUtils.getQAFDriver(DeviceUtils.java:38) ~[quantum-support-1.23.0.jar:?]
+	at com.quantum.utils.DeviceUtils.startApp(DeviceUtils.java:145) ~[quantum-support-1.23.0.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:90) ~[quantum-support-1.23.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237) [qaf-3.0.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112) [testng-6.10.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:778) [qaf-3.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:632) [qaf-3.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421) [testng-6.10.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.10.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:572) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:147) ~[qaf-3.0.0.jar:?]
+	... 35 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[?:?]
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:96) ~[quantum-support-1.23.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:147) ~[qaf-3.0.0.jar:?]
+	... 35 more
+15:58:49 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+15:58:49 Competed scenario: Verify Expense tracker Login with status FAILURE
+15:58:49 
+
+Executing scenario: Wiki Search - Mastercard - 
+15:58:49 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="Click on Search box")
+public void clickOnSearchBox(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+15:58:49 Competed scenario: Wiki Search - Mastercard with status FAILURE
+15:58:49 Unable to create testng-failed-qas.xml
+16:07:57 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+16:07:57 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+16:07:57 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+16:07:57 scenario.file.loc[Ljava.lang.String;@2dbe250d
+16:07:57 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+16:07:57 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+16:07:57 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+16:07:57 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+16:07:57 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/wiki-search1.feature
+16:07:57 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+16:07:57 total test found: 2
+16:07:57 Adding resources from: src/main/resources/ios
+16:07:57 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 1
+16:07:57 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 0
+16:07:57 
+
+Executing scenario: Verify Expense tracker Login - 
+16:07:57 pkg: com.qmetry.qaf.automation.step
+16:07:57 pkg: com.quantum.steps
+16:07:57 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+16:07:57 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW@hub-cloud.browserstack.com/wd/hub,port:80
+16:07:58 Driver: perfectoDriver
+16:07:58 Direct Driver Connect
+16:08:01 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:168) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:478) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:253) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:44) ~[qaf-3.0.0.jar:?]
+	at com.quantum.utils.DeviceUtils.getQAFDriver(DeviceUtils.java:38) ~[quantum-support-1.23.0.jar:?]
+	at com.quantum.utils.DeviceUtils.startApp(DeviceUtils.java:145) ~[quantum-support-1.23.0.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:90) ~[quantum-support-1.23.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237) [qaf-3.0.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112) [testng-6.10.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:778) [qaf-3.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:632) [qaf-3.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421) [testng-6.10.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.10.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:572) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:147) ~[qaf-3.0.0.jar:?]
+	... 35 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[?:?]
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:96) ~[quantum-support-1.23.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:147) ~[qaf-3.0.0.jar:?]
+	... 35 more
+16:08:01 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+16:08:01 Competed scenario: Verify Expense tracker Login with status FAILURE
+16:08:01 
+
+Executing scenario: Wiki Search - Mastercard - 
+16:08:01 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="Click on Search box")
+public void clickOnSearchBox(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+16:08:01 Competed scenario: Wiki Search - Mastercard with status FAILURE
+16:08:01 Unable to create testng-failed-qas.xml
+16:10:10 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+16:10:10 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+16:10:10 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+16:10:10 scenario.file.loc[Ljava.lang.String;@14f5da2c
+16:10:10 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+16:10:11 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+16:10:11 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+16:10:11 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+16:10:11 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/wiki-search1.feature
+16:10:11 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+16:10:11 total test found: 2
+16:10:11 Adding resources from: src/main/resources/ios
+16:10:11 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 1
+16:10:11 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 0
+16:10:11 
+
+Executing scenario: Verify Expense tracker Login - 
+16:10:11 pkg: com.qmetry.qaf.automation.step
+16:10:11 pkg: com.quantum.steps
+16:10:11 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+16:10:11 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW@hub-cloud.browserstack.com/wd/hub,port:80
+16:10:11 Driver: perfectoDriver
+16:10:11 Direct Driver Connect
+16:10:18 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:168) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:478) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:253) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:44) ~[qaf-3.0.0.jar:?]
+	at com.quantum.utils.DeviceUtils.getQAFDriver(DeviceUtils.java:38) ~[quantum-support-1.23.0.jar:?]
+	at com.quantum.utils.DeviceUtils.startApp(DeviceUtils.java:145) ~[quantum-support-1.23.0.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:90) ~[quantum-support-1.23.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237) [qaf-3.0.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112) [testng-6.10.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:778) [qaf-3.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:632) [qaf-3.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421) [testng-6.10.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.10.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:572) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:147) ~[qaf-3.0.0.jar:?]
+	... 35 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[?:?]
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:96) ~[quantum-support-1.23.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:147) ~[qaf-3.0.0.jar:?]
+	... 35 more
+16:10:18 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+16:10:18 Competed scenario: Verify Expense tracker Login with status FAILURE
+16:10:18 
+
+Executing scenario: Wiki Search - Mastercard - 
+16:10:18 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="Click on Search box")
+public void clickOnSearchBox(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+16:10:18 Competed scenario: Wiki Search - Mastercard with status FAILURE
+16:10:18 Unable to create testng-failed-qas.xml
+16:10:35 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+16:10:35 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+16:10:35 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+16:10:35 scenario.file.loc[Ljava.lang.String;@305f7627
+16:10:35 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+16:10:35 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+16:10:35 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+16:10:35 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+16:10:35 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/wiki-search1.feature
+16:10:35 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+16:10:35 total test found: 2
+16:10:36 Adding resources from: src/main/resources/ios
+16:10:36 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 1
+16:10:36 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 0
+16:10:36 
+
+Executing scenario: Verify Expense tracker Login - 
+16:10:36 pkg: com.qmetry.qaf.automation.step
+16:10:36 pkg: com.quantum.steps
+16:10:36 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+16:10:36 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW@hub-cloud.browserstack.com/wd/hub,port:80
+16:10:36 Driver: perfectoRemoteDriver
+16:10:36 Direct Driver Connect
+16:10:38 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:168) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:478) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:253) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:44) ~[qaf-3.0.0.jar:?]
+	at com.quantum.utils.DeviceUtils.getQAFDriver(DeviceUtils.java:38) ~[quantum-support-1.23.0.jar:?]
+	at com.quantum.utils.DeviceUtils.startApp(DeviceUtils.java:145) ~[quantum-support-1.23.0.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:90) ~[quantum-support-1.23.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237) [qaf-3.0.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112) [testng-6.10.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:778) [qaf-3.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:632) [qaf-3.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421) [testng-6.10.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.10.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:572) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:147) ~[qaf-3.0.0.jar:?]
+	... 35 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[?:?]
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:96) ~[quantum-support-1.23.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:147) ~[qaf-3.0.0.jar:?]
+	... 35 more
+16:10:38 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+16:10:38 Competed scenario: Verify Expense tracker Login with status FAILURE
+16:10:38 
+
+Executing scenario: Wiki Search - Mastercard - 
+16:10:38 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="Click on Search box")
+public void clickOnSearchBox(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+16:10:38 Competed scenario: Wiki Search - Mastercard with status FAILURE
+16:10:38 Unable to create testng-failed-qas.xml
+16:19:25 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+16:19:25 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+16:19:25 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+16:19:25 scenario.file.loc[Ljava.lang.String;@56276db8
+16:19:25 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+16:19:25 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+16:19:25 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+16:19:25 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+16:19:25 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/wiki-search1.feature
+16:19:25 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+16:19:25 total test found: 2
+16:19:25 Adding resources from: src/main/resources/ios
+16:19:25 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 1
+16:19:26 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 0
+16:19:26 
+
+Executing scenario: Verify Expense tracker Login - 
+16:19:26 pkg: com.qmetry.qaf.automation.step
+16:19:26 pkg: com.quantum.steps
+16:19:26 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+16:19:26 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW@hub-cloud.browserstack.com/wd/hub,port:80
+16:19:26 Driver: perfectoRemoteDriver
+16:19:26 Direct Driver Connect
+16:19:28 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:168) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:478) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:253) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:44) ~[qaf-3.0.0.jar:?]
+	at com.quantum.utils.DeviceUtils.getQAFDriver(DeviceUtils.java:38) ~[quantum-support-1.23.0.jar:?]
+	at com.quantum.utils.DeviceUtils.startApp(DeviceUtils.java:145) ~[quantum-support-1.23.0.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:90) ~[quantum-support-1.23.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237) [qaf-3.0.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112) [testng-6.10.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:778) [qaf-3.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:632) [qaf-3.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421) [testng-6.10.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.10.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:572) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:147) ~[qaf-3.0.0.jar:?]
+	... 35 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[?:?]
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:96) ~[quantum-support-1.23.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:147) ~[qaf-3.0.0.jar:?]
+	... 35 more
+16:19:28 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+16:19:28 Competed scenario: Verify Expense tracker Login with status FAILURE
+16:19:28 
+
+Executing scenario: Wiki Search - Mastercard - 
+16:19:28 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="Click on Search box")
+public void clickOnSearchBox(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+16:19:28 Competed scenario: Wiki Search - Mastercard with status FAILURE
+16:19:28 Unable to create testng-failed-qas.xml
+16:19:45 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+16:19:45 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+16:19:45 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+16:19:45 scenario.file.loc[Ljava.lang.String;@3234f74e
+16:19:45 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+16:19:45 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+16:19:45 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+16:19:45 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+16:19:45 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/wiki-search1.feature
+16:19:45 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+16:19:45 total test found: 2
+16:19:45 Adding resources from: src/main/resources/ios
+16:19:45 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 1
+16:19:45 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 0
+16:19:45 
+
+Executing scenario: Verify Expense tracker Login - 
+16:19:45 pkg: com.qmetry.qaf.automation.step
+16:19:45 pkg: com.quantum.steps
+16:19:45 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+16:19:45 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW@hub-cloud.browserstack.com/wd/hub,port:80
+16:19:45 Driver: perfectoRemoteDriver
+16:19:46 Direct Driver Connect
+16:20:08 Executing setTimeout parameters: {"implicit":0}
+16:20:08 command: setTimeout[ param-1: {implicit=0}] Result: null
+16:20:08 driver init done
+16:20:08 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+16:20:09 command: executeScript[ param-1: {args=[{identifier=io.perfecto.expense.tracker}], script=mobile:application:open}] Result: Unknown mobile command "application:open". Only shell,scrollBackTo,viewportScreenshot,deepLink,startLogsBroadcast,stopLogsBroadcast,acceptAlert,dismissAlert,batteryInfo,deviceInfo,changePermissions,getPermissions,performEditorAction,startScreenStreaming,stopScreenStreaming,getNotifications,listSms,type commands are supported. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: org.wikipedia.main.MainActi..., appPackage: org.wikipedia.alpha, automationName: Appium, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 4.1, bundleID: org.wikipedia.alpha, bundleId: org.wikipedia.alpha, chromeOptions: {w3c: false}, chromedriverPort: 18082, chromedriverPorts: [[18122, 18132]], cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: google pixel 6, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 6, deviceName: 1A151FDF600897, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 1A151FDF600897, disableSuppressAccessibilityService: true, driverClass: io.appium.java_client.ios.I..., enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Google Pixel 6-12.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 12, os_version: 12.0, pixelRatio: 2.625, platform: ANDROID, platformName: ANDROID, platformVersion: 12, realMobile: true, securityToken: <<CQ_LAB_SECURITY_TOKEN>>, skipServerInstallation: true, statBarHeight: 124, systemPort: 8202, takesScreenshot: true, udid: 1A151FDF600897, uiautomator2ServerLaunchTimeout: 60000, user: <<CQ_LAB_USER>>, version: , viewportRect: {height: 2116, left: 0, top: 124, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 281a9589679ac0cf4e754d2335a84344ae1ed8ff
+16:20:09 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+org.openqa.selenium.UnsupportedCommandException: Unknown mobile command "application:open". Only shell,scrollBackTo,viewportScreenshot,deepLink,startLogsBroadcast,stopLogsBroadcast,acceptAlert,dismissAlert,batteryInfo,deviceInfo,changePermissions,getPermissions,performEditorAction,startScreenStreaming,stopScreenStreaming,getNotifications,listSms,type commands are supported. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: org.wikipedia.main.MainActi..., appPackage: org.wikipedia.alpha, automationName: Appium, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 4.1, bundleID: org.wikipedia.alpha, bundleId: org.wikipedia.alpha, chromeOptions: {w3c: false}, chromedriverPort: 18082, chromedriverPorts: [[18122, 18132]], cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: google pixel 6, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 6, deviceName: 1A151FDF600897, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 1A151FDF600897, disableSuppressAccessibilityService: true, driverClass: io.appium.java_client.ios.I..., enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Google Pixel 6-12.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 12, os_version: 12.0, pixelRatio: 2.625, platform: ANDROID, platformName: ANDROID, platformVersion: 12, realMobile: true, securityToken: <<CQ_LAB_SECURITY_TOKEN>>, skipServerInstallation: true, statBarHeight: 124, systemPort: 8202, takesScreenshot: true, udid: 1A151FDF600897, uiautomator2ServerLaunchTimeout: 60000, user: <<CQ_LAB_USER>>, version: , viewportRect: {height: 2116, left: 0, top: 124, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 281a9589679ac0cf4e754d2335a84344ae1ed8ff
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:233) ~[quantum-support-1.23.0.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:571) ~[quantum-support-1.23.0.jar:?]
+	at com.quantum.utils.DeviceUtils.startApp(DeviceUtils.java:145) ~[quantum-support-1.23.0.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:90) ~[quantum-support-1.23.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237) [qaf-3.0.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112) [testng-6.10.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:778) [qaf-3.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:632) [qaf-3.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421) [testng-6.10.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.10.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+16:20:09 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+16:20:09 Competed scenario: Verify Expense tracker Login with status FAILURE
+16:20:09 Executing screenshot parameters: {}
+16:20:12 
+
+Executing scenario: Wiki Search - Mastercard - 
+16:20:12 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="Click on Search box")
+public void clickOnSearchBox(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+16:20:12 Competed scenario: Wiki Search - Mastercard with status FAILURE
+16:20:12 Executing quit parameters: {}
+16:20:14 command: quit[ param-1: {}]
+16:20:14 UI-driver tear down complete...
+16:20:14 Unable to create testng-failed-qas.xml
+16:27:44 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+16:27:44 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+16:27:44 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+16:27:44 scenario.file.loc[Ljava.lang.String;@3a62c01e
+16:27:44 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+16:27:44 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+16:27:44 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+16:27:44 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+16:27:44 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/wiki-search1.feature
+16:27:44 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+16:27:44 total test found: 2
+16:27:44 Adding resources from: src/main/resources/ios
+16:27:44 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 1
+16:27:44 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 0
+16:27:44 
+
+Executing scenario: Verify Expense tracker Login - 
+16:27:44 pkg: com.qmetry.qaf.automation.step
+16:27:45 pkg: com.quantum.steps
+16:27:45 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+16:27:45 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW@hub-cloud.browserstack.com/wd/hub,port:80
+16:27:45 Driver: perfectoRemoteDriver
+16:27:45 Direct Driver Connect
+16:28:06 Executing setTimeout parameters: {"implicit":0}
+16:28:06 command: setTimeout[ param-1: {implicit=0}] Result: null
+16:28:06 driver init done
+16:28:06 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+16:28:06 command: executeScript[ param-1: {args=[{identifier=io.perfecto.expense.tracker}], script=mobile:application:open}] Result: Unknown mobile command "application:open". Only shell,scrollBackTo,viewportScreenshot,deepLink,startLogsBroadcast,stopLogsBroadcast,acceptAlert,dismissAlert,batteryInfo,deviceInfo,changePermissions,getPermissions,performEditorAction,startScreenStreaming,stopScreenStreaming,getNotifications,listSms,type commands are supported. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: org.wikipedia.main.MainActi..., appPackage: org.wikipedia.alpha, automationName: Appium, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 4.1, bundleID: org.wikipedia.alpha, bundleId: org.wikipedia.alpha, chromeOptions: {w3c: false}, chromedriverPort: 18084, chromedriverPorts: [[18144, 18154]], cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: google pixel 6, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 6, deviceName: 1A141FDF60014E, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 1A141FDF60014E, disableSuppressAccessibilityService: true, driverClass: io.appium.java_client.ios.I..., enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Google Pixel 6-12.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 12, os_version: 12.0, pixelRatio: 2.625, platform: ANDROID, platformName: ANDROID, platformVersion: 12, realMobile: true, securityToken: <<CQ_LAB_SECURITY_TOKEN>>, skipServerInstallation: true, statBarHeight: 124, systemPort: 8204, takesScreenshot: true, udid: 1A141FDF60014E, uiautomator2ServerLaunchTimeout: 60000, user: <<CQ_LAB_USER>>, version: , viewportRect: {height: 2116, left: 0, top: 124, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 415726e0affd147decc11223d5310c0ae1f4e74e
+16:28:06 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+org.openqa.selenium.UnsupportedCommandException: Unknown mobile command "application:open". Only shell,scrollBackTo,viewportScreenshot,deepLink,startLogsBroadcast,stopLogsBroadcast,acceptAlert,dismissAlert,batteryInfo,deviceInfo,changePermissions,getPermissions,performEditorAction,startScreenStreaming,stopScreenStreaming,getNotifications,listSms,type commands are supported. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: org.wikipedia.main.MainActi..., appPackage: org.wikipedia.alpha, automationName: Appium, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 4.1, bundleID: org.wikipedia.alpha, bundleId: org.wikipedia.alpha, chromeOptions: {w3c: false}, chromedriverPort: 18084, chromedriverPorts: [[18144, 18154]], cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: google pixel 6, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 6, deviceName: 1A141FDF60014E, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 1A141FDF60014E, disableSuppressAccessibilityService: true, driverClass: io.appium.java_client.ios.I..., enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Google Pixel 6-12.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 12, os_version: 12.0, pixelRatio: 2.625, platform: ANDROID, platformName: ANDROID, platformVersion: 12, realMobile: true, securityToken: <<CQ_LAB_SECURITY_TOKEN>>, skipServerInstallation: true, statBarHeight: 124, systemPort: 8204, takesScreenshot: true, udid: 1A141FDF60014E, uiautomator2ServerLaunchTimeout: 60000, user: <<CQ_LAB_USER>>, version: , viewportRect: {height: 2116, left: 0, top: 124, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 415726e0affd147decc11223d5310c0ae1f4e74e
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:233) ~[quantum-support-1.23.0.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:571) ~[quantum-support-1.23.0.jar:?]
+	at com.quantum.utils.DeviceUtils.startApp(DeviceUtils.java:145) ~[quantum-support-1.23.0.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:90) ~[quantum-support-1.23.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237) [qaf-3.0.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112) [testng-6.10.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:778) [qaf-3.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:632) [qaf-3.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421) [testng-6.10.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.10.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+16:28:06 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+16:28:06 Competed scenario: Verify Expense tracker Login with status FAILURE
+16:28:06 Executing screenshot parameters: {}
+16:28:09 Executing executeScript parameters: {"args":[],"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \"failed\", \"reason\": \"Test Failed!\"}}"}
+16:28:09 
+
+Executing scenario: Wiki Search - Mastercard - 
+16:28:09 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="Click on Search box")
+public void clickOnSearchBox(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+16:28:09 Competed scenario: Wiki Search - Mastercard with status FAILURE
+16:28:09 Executing quit parameters: {}
+16:28:11 command: quit[ param-1: {}]
+16:28:11 UI-driver tear down complete...
+16:28:11 Unable to create testng-failed-qas.xml
+16:41:04 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+16:41:04 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+16:41:04 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+16:41:04 scenario.file.loc[Ljava.lang.String;@15c25153
+16:41:04 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+16:41:04 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+16:41:04 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+16:41:04 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+16:41:04 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/wiki-search1.feature
+16:41:04 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+16:41:04 total test found: 1
+16:41:04 Adding resources from: src/main/resources/ios
+16:41:04 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 1
+16:41:04 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 0
+16:41:04 
+
+Executing scenario: Wiki Search - Mastercard - 
+16:41:04 pkg: com.qmetry.qaf.automation.step
+16:41:04 pkg: com.quantum.steps
+16:41:04 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="Click on Search box")
+public void clickOnSearchBox(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+16:41:04 Competed scenario: Wiki Search - Mastercard with status FAILURE
+16:41:04 Unable to create testng-failed-qas.xml
+16:45:46 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+16:45:46 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+16:45:46 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+16:45:46 scenario.file.loc[Ljava.lang.String;@458342d3
+16:45:46 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+16:45:46 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+16:45:46 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+16:45:46 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+16:45:46 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/wiki-search1.feature
+16:45:46 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+16:45:46 total test found: 1
+16:45:46 Adding resources from: src/main/resources/ios
+16:45:46 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 1
+16:45:46 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 0
+16:45:46 
+
+Executing scenario: Wiki Search - Mastercard - 
+16:45:46 pkg: com.qmetry.qaf.automation.step
+16:45:46 pkg: com.quantum.steps
+16:45:47 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="Click on Search box")
+public void clickOnSearchBox(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+16:45:47 Competed scenario: Wiki Search - Mastercard with status FAILURE
+16:45:47 Unable to create testng-failed-qas.xml
+16:52:58 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+16:52:58 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+16:52:58 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+16:52:58 scenario.file.loc[Ljava.lang.String;@51e8e6e6
+16:52:58 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+16:52:58 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+16:52:58 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+16:52:58 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+16:52:58 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/wiki-search1.feature
+16:52:58 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+16:52:58 total test found: 1
+16:52:59 Adding resources from: src/main/resources/ios
+16:52:59 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 1
+16:52:59 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 0
+16:52:59 
+
+Executing scenario: Wiki Search - Mastercard - 
+16:52:59 pkg: com.qmetry.qaf.automation.step
+16:52:59 pkg: com.quantum.steps
+16:52:59 Invoking Teststep: Given Click on Search box
+16:52:59 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW@hub-cloud.browserstack.com/wd/hub,port:80
+16:52:59 Driver: perfectoRemoteDriver
+16:52:59 Direct Driver Connect
+16:53:18 Executing setTimeout parameters: {"implicit":0}
+16:53:18 command: setTimeout[ param-1: {implicit=0}] Result: null
+16:53:18 driver init done
+16:53:18 Failure Teststep: Given Click on Search box
+java.lang.IllegalArgumentException: The class com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver of the given context doesn't implement io.appium.java_client.FindsByAccessibilityId nor io.appium.java_client.FindsByFluentSelector. Sorry. It is impossible to find something.
+	at io.appium.java_client.MobileBy.formIllegalArgumentException(MobileBy.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.MobileBy.access$0(MobileBy.java:39) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.MobileBy$ByAccessibilityId.findElement(MobileBy.java:281) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:169) ~[quantum-support-1.23.0.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:78) ~[quantum-support-1.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	at com.quantum.pages.WikipediaPage.click_on_search_box(WikipediaPage.java:30) ~[classes/:?]
+	at com.quantum.steps.WikipediaStepDefs.clickOnSearchBox(WikipediaStepDefs.java:13) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237) [qaf-3.0.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112) [testng-6.10.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:778) [qaf-3.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:632) [qaf-3.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421) [testng-6.10.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.10.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+16:53:18 Completed Teststep: Given Click on Search box
+16:53:18 Competed scenario: Wiki Search - Mastercard with status FAILURE
+16:53:18 Executing screenshot parameters: {}
+16:53:20 Executing executeScript parameters: {"args":[],"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \"failed\", \"reason\": \"Test Failed!\"}}"}
+16:53:21 Executing quit parameters: {}
+16:53:22 command: quit[ param-1: {}]
+16:53:22 UI-driver tear down complete...
+16:53:22 Unable to create testng-failed-qas.xml
+17:16:48 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+17:16:48 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+17:16:48 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+17:16:48 scenario.file.loc[Ljava.lang.String;@67389cb8
+17:16:48 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+17:16:48 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+17:16:48 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+17:16:48 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+17:16:48 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/wiki-search1.feature
+17:16:48 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+17:16:48 total test found: 1
+17:16:48 Adding resources from: src/main/resources/ios
+17:16:48 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 1
+17:16:48 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 0
+17:16:48 
+
+Executing scenario: Wiki Search - Mastercard - 
+17:16:48 pkg: com.qmetry.qaf.automation.step
+17:16:48 pkg: com.quantum.steps
+17:16:49 Invoking Teststep: Given Click on Search box
+17:18:10 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW@hub-cloud.browserstack.com/wd/hub,port:80
+17:18:10 Driver: perfectoRemoteDriver
+17:18:14 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+17:18:14 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+17:18:14 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+17:18:14 scenario.file.loc[Ljava.lang.String;@67389cb8
+17:18:14 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+17:18:14 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+17:18:14 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+17:18:14 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+17:18:14 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/wiki-search1.feature
+17:18:14 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+17:18:14 total test found: 1
+17:18:14 Adding resources from: src/main/resources/ios
+17:18:14 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 1
+17:18:14 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 0
+17:18:14 
+
+Executing scenario: Wiki Search - Mastercard - 
+17:18:14 pkg: com.qmetry.qaf.automation.step
+17:18:15 pkg: com.quantum.steps
+17:18:15 Invoking Teststep: Given Click on Search box
+17:18:15 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW@hub-cloud.browserstack.com/wd/hub,port:80
+17:18:15 Driver: perfectoRemoteDriver
+17:18:15 Direct Driver Connect
+17:18:34 Executing setTimeout parameters: {"implicit":0}
+17:18:34 command: setTimeout[ param-1: {implicit=0}] Result: null
+17:18:34 driver init done
+17:33:22 Failure Teststep: Given Click on Search box
+java.lang.IllegalArgumentException: The class com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver of the given context doesn't implement io.appium.java_client.FindsByAccessibilityId nor io.appium.java_client.FindsByFluentSelector. Sorry. It is impossible to find something.
+	at io.appium.java_client.MobileBy.formIllegalArgumentException(MobileBy.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.MobileBy.access$0(MobileBy.java:39) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.MobileBy$ByAccessibilityId.findElement(MobileBy.java:281) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:169) ~[quantum-support-1.23.0.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:78) ~[quantum-support-1.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	at com.quantum.pages.WikipediaPage.click_on_search_box(WikipediaPage.java:33) ~[classes/:?]
+	at com.quantum.steps.WikipediaStepDefs.clickOnSearchBox(WikipediaStepDefs.java:13) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237) [qaf-3.0.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112) [testng-6.10.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:778) [qaf-3.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:632) [qaf-3.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421) [testng-6.10.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.10.jar:?]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+17:33:22 Completed Teststep: Given Click on Search box
+17:33:22 Competed scenario: Wiki Search - Mastercard with status FAILURE
+17:33:22 Executing screenshot parameters: {}
+17:33:22 Executing quit parameters: {}
+17:33:24 command: quit[ param-1: {}]
+17:33:24 UI-driver tear down complete...
+17:33:28 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+17:33:28 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+17:33:28 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+17:33:28 scenario.file.loc[Ljava.lang.String;@61bcd567
+17:33:29 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+17:33:29 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+17:33:29 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+17:33:29 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+17:33:29 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/wiki-search1.feature
+17:33:29 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+17:33:29 total test found: 1
+17:33:29 Adding resources from: src/main/resources/ios
+17:33:29 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 1
+17:33:29 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 0
+17:33:29 
+
+Executing scenario: Wiki Search - Mastercard - 
+17:33:29 pkg: com.qmetry.qaf.automation.step
+17:33:29 pkg: com.quantum.steps
+17:33:29 Invoking Teststep: Given Click on Search box
+17:33:29 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW@hub-cloud.browserstack.com/wd/hub,port:80
+17:33:29 Driver: perfectoRemoteDriver
+17:33:29 Direct Driver Connect
+17:33:46 Executing setTimeout parameters: {"implicit":0}
+17:33:47 command: setTimeout[ param-1: {implicit=0}] Result: null
+17:33:47 driver init done
+17:33:47 Executing findElement element: By.xpath: //*[@label='OK'] parameters: {}
+17:33:47 Executing findElement parameters: {"using":"xpath","value":"//*[@label='OK']"}
+17:33:48 command: findElement[ param-1: {value=//*[@label='OK'], using=xpath}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: org.wikipedia.main.MainActi..., appPackage: org.wikipedia.alpha, automationName: Appium, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 4.1, bundleID: org.wikipedia.alpha, bundleId: org.wikipedia.alpha, chromeOptions: {w3c: false}, chromedriverPort: 18081, chromedriverPorts: [[18111, 18121]], cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: google pixel 6, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 6, deviceName: 1A141FDF6009FY, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 1A141FDF6009FY, disableSuppressAccessibilityService: true, driverClass: io.appium.java_client.ios.I..., enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Google Pixel 6-12.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 12, os_version: 12.0, pixelRatio: 2.625, platform: ANDROID, platformName: ANDROID, platformVersion: 12, realMobile: true, securityToken: <<CQ_LAB_SECURITY_TOKEN>>, skipServerInstallation: true, statBarHeight: 124, systemPort: 8201, takesScreenshot: true, udid: 1A141FDF6009FY, uiautomator2ServerLaunchTimeout: 60000, user: <<CQ_LAB_USER>>, version: , viewportRect: {height: 2116, left: 0, top: 124, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0a3f7cbb47e7080c85fbcb73bff59151229b121f
+*** Element info: {Using=xpath, value=//*[@label='OK']}
+17:33:49 Executing findElement parameters: {"using":"xpath","value":"//*[@label='OK']"}
+17:33:49 command: findElement[ param-1: {value=//*[@label='OK'], using=xpath}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: org.wikipedia.main.MainActi..., appPackage: org.wikipedia.alpha, automationName: Appium, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 4.1, bundleID: org.wikipedia.alpha, bundleId: org.wikipedia.alpha, chromeOptions: {w3c: false}, chromedriverPort: 18081, chromedriverPorts: [[18111, 18121]], cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: google pixel 6, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 6, deviceName: 1A141FDF6009FY, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 1A141FDF6009FY, disableSuppressAccessibilityService: true, driverClass: io.appium.java_client.ios.I..., enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Google Pixel 6-12.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 12, os_version: 12.0, pixelRatio: 2.625, platform: ANDROID, platformName: ANDROID, platformVersion: 12, realMobile: true, securityToken: <<CQ_LAB_SECURITY_TOKEN>>, skipServerInstallation: true, statBarHeight: 124, systemPort: 8201, takesScreenshot: true, udid: 1A141FDF6009FY, uiautomator2ServerLaunchTimeout: 60000, user: <<CQ_LAB_USER>>, version: , viewportRect: {height: 2116, left: 0, top: 124, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0a3f7cbb47e7080c85fbcb73bff59151229b121f
+*** Element info: {Using=xpath, value=//*[@label='OK']}
+17:33:50 Executing findElement parameters: {"using":"xpath","value":"//*[@label='OK']"}
+17:33:51 command: findElement[ param-1: {value=//*[@label='OK'], using=xpath}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: org.wikipedia.main.MainActi..., appPackage: org.wikipedia.alpha, automationName: Appium, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 4.1, bundleID: org.wikipedia.alpha, bundleId: org.wikipedia.alpha, chromeOptions: {w3c: false}, chromedriverPort: 18081, chromedriverPorts: [[18111, 18121]], cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: google pixel 6, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 6, deviceName: 1A141FDF6009FY, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 1A141FDF6009FY, disableSuppressAccessibilityService: true, driverClass: io.appium.java_client.ios.I..., enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Google Pixel 6-12.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 12, os_version: 12.0, pixelRatio: 2.625, platform: ANDROID, platformName: ANDROID, platformVersion: 12, realMobile: true, securityToken: <<CQ_LAB_SECURITY_TOKEN>>, skipServerInstallation: true, statBarHeight: 124, systemPort: 8201, takesScreenshot: true, udid: 1A141FDF6009FY, uiautomator2ServerLaunchTimeout: 60000, user: <<CQ_LAB_USER>>, version: , viewportRect: {height: 2116, left: 0, top: 124, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0a3f7cbb47e7080c85fbcb73bff59151229b121f
+*** Element info: {Using=xpath, value=//*[@label='OK']}
+17:33:52 Executing findElement parameters: {"using":"xpath","value":"//*[@label='OK']"}
+17:33:52 command: findElement[ param-1: {value=//*[@label='OK'], using=xpath}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: org.wikipedia.main.MainActi..., appPackage: org.wikipedia.alpha, automationName: Appium, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 4.1, bundleID: org.wikipedia.alpha, bundleId: org.wikipedia.alpha, chromeOptions: {w3c: false}, chromedriverPort: 18081, chromedriverPorts: [[18111, 18121]], cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: google pixel 6, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 6, deviceName: 1A141FDF6009FY, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 1A141FDF6009FY, disableSuppressAccessibilityService: true, driverClass: io.appium.java_client.ios.I..., enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Google Pixel 6-12.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 12, os_version: 12.0, pixelRatio: 2.625, platform: ANDROID, platformName: ANDROID, platformVersion: 12, realMobile: true, securityToken: <<CQ_LAB_SECURITY_TOKEN>>, skipServerInstallation: true, statBarHeight: 124, systemPort: 8201, takesScreenshot: true, udid: 1A141FDF6009FY, uiautomator2ServerLaunchTimeout: 60000, user: <<CQ_LAB_USER>>, version: , viewportRect: {height: 2116, left: 0, top: 124, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0a3f7cbb47e7080c85fbcb73bff59151229b121f
+*** Element info: {Using=xpath, value=//*[@label='OK']}
+17:33:53 Executing findElement parameters: {"using":"xpath","value":"//*[@label='OK']"}
+17:33:54 command: findElement[ param-1: {value=//*[@label='OK'], using=xpath}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: org.wikipedia.main.MainActi..., appPackage: org.wikipedia.alpha, automationName: Appium, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 4.1, bundleID: org.wikipedia.alpha, bundleId: org.wikipedia.alpha, chromeOptions: {w3c: false}, chromedriverPort: 18081, chromedriverPorts: [[18111, 18121]], cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: google pixel 6, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 6, deviceName: 1A141FDF6009FY, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 1A141FDF6009FY, disableSuppressAccessibilityService: true, driverClass: io.appium.java_client.ios.I..., enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Google Pixel 6-12.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 12, os_version: 12.0, pixelRatio: 2.625, platform: ANDROID, platformName: ANDROID, platformVersion: 12, realMobile: true, securityToken: <<CQ_LAB_SECURITY_TOKEN>>, skipServerInstallation: true, statBarHeight: 124, systemPort: 8201, takesScreenshot: true, udid: 1A141FDF6009FY, uiautomator2ServerLaunchTimeout: 60000, user: <<CQ_LAB_USER>>, version: , viewportRect: {height: 2116, left: 0, top: 124, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0a3f7cbb47e7080c85fbcb73bff59151229b121f
+*** Element info: {Using=xpath, value=//*[@label='OK']}
+17:33:55 Executing findElement parameters: {"using":"xpath","value":"//*[@label='OK']"}
+17:33:55 command: findElement[ param-1: {value=//*[@label='OK'], using=xpath}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: org.wikipedia.main.MainActi..., appPackage: org.wikipedia.alpha, automationName: Appium, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 4.1, bundleID: org.wikipedia.alpha, bundleId: org.wikipedia.alpha, chromeOptions: {w3c: false}, chromedriverPort: 18081, chromedriverPorts: [[18111, 18121]], cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: google pixel 6, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 6, deviceName: 1A141FDF6009FY, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 1A141FDF6009FY, disableSuppressAccessibilityService: true, driverClass: io.appium.java_client.ios.I..., enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Google Pixel 6-12.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 12, os_version: 12.0, pixelRatio: 2.625, platform: ANDROID, platformName: ANDROID, platformVersion: 12, realMobile: true, securityToken: <<CQ_LAB_SECURITY_TOKEN>>, skipServerInstallation: true, statBarHeight: 124, systemPort: 8201, takesScreenshot: true, udid: 1A141FDF6009FY, uiautomator2ServerLaunchTimeout: 60000, user: <<CQ_LAB_USER>>, version: , viewportRect: {height: 2116, left: 0, top: 124, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0a3f7cbb47e7080c85fbcb73bff59151229b121f
+*** Element info: {Using=xpath, value=//*[@label='OK']}
+17:33:56 Executing findElement parameters: {"using":"xpath","value":"//*[@label='OK']"}
+17:33:57 Executing quit parameters: {}
+17:33:57 command: findElement[ param-1: {value=//*[@label='OK'], using=xpath}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: org.wikipedia.main.MainActi..., appPackage: org.wikipedia.alpha, automationName: Appium, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 4.1, bundleID: org.wikipedia.alpha, bundleId: org.wikipedia.alpha, chromeOptions: {w3c: false}, chromedriverPort: 18081, chromedriverPorts: [[18111, 18121]], cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: google pixel 6, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 6, deviceName: 1A141FDF6009FY, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 1A141FDF6009FY, disableSuppressAccessibilityService: true, driverClass: io.appium.java_client.ios.I..., enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Google Pixel 6-12.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 12, os_version: 12.0, pixelRatio: 2.625, platform: ANDROID, platformName: ANDROID, platformVersion: 12, realMobile: true, securityToken: <<CQ_LAB_SECURITY_TOKEN>>, skipServerInstallation: true, statBarHeight: 124, systemPort: 8201, takesScreenshot: true, udid: 1A141FDF6009FY, uiautomator2ServerLaunchTimeout: 60000, user: <<CQ_LAB_USER>>, version: , viewportRect: {height: 2116, left: 0, top: 124, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0a3f7cbb47e7080c85fbcb73bff59151229b121f
+*** Element info: {Using=xpath, value=//*[@label='OK']}
+17:33:58 Executing findElement parameters: {"using":"xpath","value":"//*[@label='OK']"}
+17:33:58 command: findElement[ param-1: {value=//*[@label='OK'], using=xpath}] Result: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: 'fe80:0:0:0:c4a:4bf1:ed88:edcb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: org.wikipedia.main.MainActi..., appPackage: org.wikipedia.alpha, automationName: Appium, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 4.1, bundleID: org.wikipedia.alpha, bundleId: org.wikipedia.alpha, chromeOptions: {w3c: false}, chromedriverPort: 18081, chromedriverPorts: [[18111, 18121]], cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: google pixel 6, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 6, deviceName: 1A141FDF6009FY, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 1A141FDF6009FY, disableSuppressAccessibilityService: true, driverClass: io.appium.java_client.ios.I..., enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Google Pixel 6-12.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 12, os_version: 12.0, pixelRatio: 2.625, platform: ANDROID, platformName: ANDROID, platformVersion: 12, realMobile: true, securityToken: <<CQ_LAB_SECURITY_TOKEN>>, skipServerInstallation: true, statBarHeight: 124, systemPort: 8201, takesScreenshot: true, udid: 1A141FDF6009FY, uiautomator2ServerLaunchTimeout: 60000, user: <<CQ_LAB_USER>>, version: , viewportRect: {height: 2116, left: 0, top: 124, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0a3f7cbb47e7080c85fbcb73bff59151229b121f
+*** Element info: {Using=xpath, value=//*[@label='OK']}
+17:33:58 command: quit[ param-1: {}]
+17:33:58 UI-driver tear down complete...
+17:34:25 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+17:34:25 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+17:34:25 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+17:34:25 scenario.file.loc[Ljava.lang.String;@b968a76
+17:34:25 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+17:34:25 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+17:34:25 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+17:34:25 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+17:34:26 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/wiki-search1.feature
+17:34:26 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+17:34:26 total test found: 1
+17:34:26 Adding resources from: src/main/resources/ios
+17:34:26 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 1
+17:34:26 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 0
+17:34:26 
+
+Executing scenario: Wiki Search - Mastercard - 
+17:34:26 pkg: com.qmetry.qaf.automation.step
+17:34:26 pkg: com.quantum.steps
+17:34:26 Invoking Teststep: Given Click on Search box
+17:34:26 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW@hub-cloud.browserstack.com/wd/hub,port:80
+17:34:26 Driver: perfectoRemoteDriver
+17:34:26 Direct Driver Connect
+17:34:46 Executing setTimeout parameters: {"implicit":0}
+17:34:47 command: setTimeout[ param-1: {implicit=0}] Result: null
+17:34:47 driver init done
+17:34:47 Executing findElement element: By.id: org.wikipedia.alpha:id/search_container parameters: {}
+17:34:47 Executing findElement parameters: {"using":"id","value":"org.wikipedia.alpha:id/search_container"}
+17:34:47 command: findElement[ param-1: {value=org.wikipedia.alpha:id/search_container, using=id}] Result: id: 51be747e-d40c-4e17-b470-eff043a6e36d
+17:34:47 command: findElement[ param-1: By.id: org.wikipedia.alpha:id/search_container param-2: {}] Result: OK
+17:34:47 Executing clickElement element: By.id: org.wikipedia.alpha:id/search_container parameters: {"id":"51be747e-d40c-4e17-b470-eff043a6e36d"}
+17:34:49 command: clickElement[ param-1: By.id: org.wikipedia.alpha:id/search_container param-2: {"id":"51be747e-d40c-4e17-b470-eff043a6e36d"}] Result: clickElement:null
+17:34:49 Completed Teststep: Given Click on Search box
+17:34:49 Competed scenario: Wiki Search - Mastercard with status SUCCESS
+17:34:49 Executing executeScript parameters: {"args":[],"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \"passed\", \"reason\": \"Test Passed!\"}}"}
+17:34:50 Executing quit parameters: {}
+17:34:51 command: quit[ param-1: {}]
+17:34:51 UI-driver tear down complete...
+17:59:10 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+17:59:10 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+17:59:10 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+17:59:10 scenario.file.loc[Ljava.lang.String;@7829b776
+17:59:10 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/webSearch.feature
+17:59:10 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appium.feature
+17:59:10 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/03createTest.feature
+17:59:10 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/01firstRun.feature
+17:59:10 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/wiki-search1.feature
+17:59:10 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/02sampleTestCase.feature
+17:59:10 total test found: 1
+17:59:10 Adding resources from: src/main/resources/ios
+17:59:10 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 1
+17:59:10 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 0
+17:59:10 
+
+Executing scenario: Wiki Search - Mastercard - 
+17:59:10 pkg: com.qmetry.qaf.automation.step
+17:59:10 pkg: com.quantum.steps
+17:59:10 Invoking Teststep: Given Click on Search box
+17:59:10 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW@hub-cloud.browserstack.com/wd/hub,port:80
+17:59:10 Driver: perfectoRemoteDriver
+17:59:10 Direct Driver Connect
+17:59:32 Executing setTimeout parameters: {"implicit":0}
+17:59:32 command: setTimeout[ param-1: {implicit=0}] Result: null
+17:59:32 driver init done
+17:59:32 Executing findElement element: By.id: org.wikipedia.alpha:id/search_container parameters: {}
+17:59:32 Executing findElement parameters: {"using":"id","value":"org.wikipedia.alpha:id/search_container"}
+17:59:33 command: findElement[ param-1: {value=org.wikipedia.alpha:id/search_container, using=id}] Result: id: f84d0b1b-30a2-4427-8e4e-643a64875661
+17:59:33 command: findElement[ param-1: By.id: org.wikipedia.alpha:id/search_container param-2: {}] Result: OK
+17:59:33 Executing clickElement element: By.id: org.wikipedia.alpha:id/search_container parameters: {"id":"f84d0b1b-30a2-4427-8e4e-643a64875661"}
+17:59:34 command: clickElement[ param-1: By.id: org.wikipedia.alpha:id/search_container param-2: {"id":"f84d0b1b-30a2-4427-8e4e-643a64875661"}] Result: clickElement:null
+17:59:34 Completed Teststep: Given Click on Search box
+17:59:34 Invoking Teststep: When BrowserStack is searched
+17:59:34 Executing findElement element: By.id: org.wikipedia.alpha:id/search_src_text parameters: {}
+17:59:34 Executing findElement parameters: {"using":"id","value":"org.wikipedia.alpha:id/search_src_text"}
+17:59:35 command: findElement[ param-1: {value=org.wikipedia.alpha:id/search_src_text, using=id}] Result: id: af6cb317-4fb8-4884-b642-0b1a3738aae4
+17:59:35 command: findElement[ param-1: By.id: org.wikipedia.alpha:id/search_src_text param-2: {}] Result: OK
+17:59:35 Executing sendKeysToElement element: By.id: org.wikipedia.alpha:id/search_src_text parameters: {"id":"af6cb317-4fb8-4884-b642-0b1a3738aae4","value":["BrowserStack"]}
+17:59:35 command: sendKeysToElement[ param-1: By.id: org.wikipedia.alpha:id/search_src_text param-2: {"id":"af6cb317-4fb8-4884-b642-0b1a3738aae4","value":["BrowserStack"]}] Result: sendKeysToElement:null
+17:59:35 Completed Teststep: When BrowserStack is searched
+17:59:35 Competed scenario: Wiki Search - Mastercard with status SUCCESS
+17:59:35 Executing executeScript parameters: {"args":[],"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \"passed\", \"reason\": \"Test Passed!\"}}"}
+17:59:36 Executing quit parameters: {}
+17:59:37 command: quit[ param-1: {}]
+17:59:37 UI-driver tear down complete...
+13:11:52 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+13:11:52 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+13:11:52 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+13:11:52 scenario.file.loc[Ljava.lang.String;@3f446bef
+13:11:52 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appautomate.feature
+13:11:52 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/automate.feature
+13:11:52 total test found: 1
+13:11:52 Adding resources from: src/main/resources/ios
+13:11:52 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 1
+13:11:52 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/ios. Found property files to load: 0
+13:11:52 
+
+Executing scenario: Wiki Search - Mastercard - 
+13:11:52 pkg: com.qmetry.qaf.automation.step
+13:11:52 pkg: com.quantum.steps
+13:11:52 Invoking Teststep: Given Click on Search box
+13:11:52 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW@hub-cloud.browserstack.com/wd/hub,port:80
+13:11:52 Driver: perfectoRemoteDriver
+13:11:52 Direct Driver Connect
+13:12:13 Executing setTimeout parameters: {"implicit":0}
+13:12:13 command: setTimeout[ param-1: {implicit=0}] Result: null
+13:12:13 driver init done
+13:12:13 Executing findElement element: By.id: org.wikipedia.alpha:id/search_container parameters: {}
+13:12:13 Executing findElement parameters: {"using":"id","value":"org.wikipedia.alpha:id/search_container"}
+13:12:14 command: findElement[ param-1: {value=org.wikipedia.alpha:id/search_container, using=id}] Result: id: d90fdccf-0a10-4a8e-8128-e8118c28f11a
+13:12:14 command: findElement[ param-1: By.id: org.wikipedia.alpha:id/search_container param-2: {}] Result: OK
+13:12:14 Executing clickElement element: By.id: org.wikipedia.alpha:id/search_container parameters: {"id":"d90fdccf-0a10-4a8e-8128-e8118c28f11a"}
+13:12:15 command: clickElement[ param-1: By.id: org.wikipedia.alpha:id/search_container param-2: {"id":"d90fdccf-0a10-4a8e-8128-e8118c28f11a"}] Result: clickElement:null
+13:12:15 Completed Teststep: Given Click on Search box
+13:12:15 Invoking Teststep: When BrowserStack is searched
+13:12:15 Executing findElement element: By.id: org.wikipedia.alpha:id/search_src_text parameters: {}
+13:12:15 Executing findElement parameters: {"using":"id","value":"org.wikipedia.alpha:id/search_src_text"}
+13:12:16 command: findElement[ param-1: {value=org.wikipedia.alpha:id/search_src_text, using=id}] Result: id: 8e9b9e51-c55d-4895-8087-055f7f2f05d5
+13:12:16 command: findElement[ param-1: By.id: org.wikipedia.alpha:id/search_src_text param-2: {}] Result: OK
+13:12:16 Executing sendKeysToElement element: By.id: org.wikipedia.alpha:id/search_src_text parameters: {"id":"8e9b9e51-c55d-4895-8087-055f7f2f05d5","value":["BrowserStack"]}
+13:12:16 command: sendKeysToElement[ param-1: By.id: org.wikipedia.alpha:id/search_src_text param-2: {"id":"8e9b9e51-c55d-4895-8087-055f7f2f05d5","value":["BrowserStack"]}] Result: sendKeysToElement:null
+13:12:16 Completed Teststep: When BrowserStack is searched
+13:12:16 Competed scenario: Wiki Search - Mastercard with status SUCCESS
+13:12:16 Executing executeScript parameters: {"args":[],"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \"passed\", \"reason\": \"Test Passed!\"}}"}
+13:12:17 Executing quit parameters: {}
+13:12:19 command: quit[ param-1: {}]
+13:12:19 UI-driver tear down complete...
+13:12:27 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Build-Time=26-Jul-2020 22:16:34, qaf-Version=3.0}
+13:12:27 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+13:12:27 Resource dir: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/common. Found property files to load: 1
+13:12:27 scenario.file.loc[Ljava.lang.String;@54227100
+13:12:27 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appautomate.feature
+13:12:27 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/automate.feature
+13:12:27 total test found: 1
+13:12:27 scenario.file.loc[Ljava.lang.String;@5fe8b721
+13:12:27 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/appautomate.feature
+13:12:27 loading feature file: /Users/shaikhalid/Documents/BrowserStack/Customer Usecase Repos/QuantumFramework/browserstack-quantum-example/src/main/resources/scenarios/automate.feature
+13:12:27 total test found: 1
+13:12:27 
+
+Executing scenario: Search Quantum - 
+13:12:27 
+
+Executing scenario: Search Quantum - 
+13:12:27 pkg: com.qmetry.qaf.automation.step
+13:12:27 pkg: com.qmetry.qaf.automation.step
+13:12:27 pkg: com.quantum.steps
+13:12:27 pkg: com.quantum.steps
+13:12:27 Invoking Teststep: Given I am on Google Search Page
+13:12:27 Invoking Teststep: Given I am on Google Search Page
+13:12:27 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW@hub-cloud.browserstack.com/wd/hub,port:80
+13:12:27 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW@hub-cloud.browserstack.com/wd/hub,port:80
+13:12:27 Driver: perfectoRemoteDriver
+13:12:27 Driver: perfectoRemoteDriver
+13:12:27 Direct Driver Connect
+13:12:27 Direct Driver Connect
+13:12:37 Executing setTimeout parameters: {"implicit":0}
+13:12:37 command: setTimeout[ param-1: {implicit=0}] Result: null
+13:12:37 driver init done
+13:12:37 Executing get parameters: {"url":"https://www.google.com/"}
+13:12:38 Executing setTimeout parameters: {"implicit":0}
+13:12:38 command: setTimeout[ param-1: {implicit=0}] Result: null
+13:12:38 driver init done
+13:12:38 Executing get parameters: {"url":"https://www.google.com/"}
+13:12:38 command: get[ param-1: {url=https://www.google.com/}] Result: null
+13:12:38 Completed Teststep: Given I am on Google Search Page
+13:12:38 Invoking Teststep: When I search for "perfecto mobile quantum" with arguments: [perfecto mobile quantum]
+13:12:38 Executing findElement element: By.name: q parameters: {}
+13:12:38 Executing findElement parameters: {"using":"name","value":"q"}
+13:12:39 command: findElement[ param-1: {value=q, using=name}] Result: id: 5000
+13:12:39 command: findElement[ param-1: By.name: q param-2: {}] Result: OK
+13:12:39 Executing clearElement element: By.name: q parameters: {"id":"5000"}
+13:12:39 command: clearElement[ param-1: By.name: q param-2: {"id":"5000"}] Result: clearElement:null
+13:12:39 Executing findElement element: By.name: q parameters: {}
+13:12:39 Executing findElement parameters: {"using":"name","value":"q"}
+13:12:39 command: findElement[ param-1: {value=q, using=name}] Result: id: 5001
+13:12:39 command: findElement[ param-1: By.name: q param-2: {}] Result: OK
+13:12:39 Executing sendKeysToElement element: By.name: q parameters: {"id":"5001","value":["perfecto mobile quantum"]}
+13:12:39 command: sendKeysToElement[ param-1: By.name: q param-2: {"id":"5001","value":["perfecto mobile quantum"]}] Result: sendKeysToElement:null
+13:12:39 Executing findElement element: By.xpath: (//*[text()='perfecto mobile quantum'])[1] parameters: {}
+13:12:39 Executing findElement parameters: {"using":"xpath","value":"(//*[text()='perfecto mobile quantum'])[1]"}
+13:12:39 command: findElement[ param-1: {value=(//*[text()='perfecto mobile quantum'])[1], using=xpath}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: '2401:4900:1c20:6d49:2419:5e35:ee6e:aef0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browserstack.appium_version: 1.17.0, browserstack.isTargetBased: true, browserstack.is_hub_canary: false, cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: iphone, deviceName: iPhone 12, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 12-14.1}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 14, os_version: 14.0, platform: MAC, platformName: MAC, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., securityToken: <<CQ_LAB_SECURITY_TOKEN>>, takesScreenshot: true, udid: 00008101-001C68E12481401E, useXctestrunFile: true, user: <<CQ_LAB_USER>>, version: , wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 0b548b9e39624fd7bb1ff7d69c1ea5fa0077bc43
+*** Element info: {Using=xpath, value=(//*[text()='perfecto mobile quantum'])[1]}
+13:12:39 command: get[ param-1: {url=https://www.google.com/}] Result: null
+13:12:39 Completed Teststep: Given I am on Google Search Page
+13:12:39 Invoking Teststep: When I search for "perfecto mobile quantum" with arguments: [perfecto mobile quantum]
+13:12:39 Executing findElement element: By.name: q parameters: {}
+13:12:39 Executing findElement parameters: {"using":"name","value":"q"}
+13:12:40 command: findElement[ param-1: {value=q, using=name}] Result: id: 0.3959968485780898-1
+13:12:40 command: findElement[ param-1: By.name: q param-2: {}] Result: OK
+13:12:40 Executing clearElement element: By.name: q parameters: {"id":"0.3959968485780898-1"}
+13:12:40 Executing findElement parameters: {"using":"xpath","value":"(//*[text()='perfecto mobile quantum'])[1]"}
+13:12:40 command: findElement[ param-1: {value=(//*[text()='perfecto mobile quantum'])[1], using=xpath}] Result: id: 5002
+13:12:40 command: clearElement[ param-1: By.name: q param-2: {"id":"0.3959968485780898-1"}] Result: clearElement:null
+13:12:40 Executing findElement element: By.name: q parameters: {}
+13:12:40 command: findElement[ param-1: By.xpath: (//*[text()='perfecto mobile quantum'])[1] param-2: {}] Result: OK
+13:12:40 Executing clickElement element: By.xpath: (//*[text()='perfecto mobile quantum'])[1] parameters: {"id":"5002"}
+13:12:40 Executing findElement parameters: {"using":"name","value":"q"}
+13:12:40 command: clickElement[ param-1: By.xpath: (//*[text()='perfecto mobile quantum'])[1] param-2: {"id":"5002"}] Result: clickElement:null
+13:12:40 Completed Teststep: When I search for "perfecto mobile quantum" with arguments: [perfecto mobile quantum]
+13:12:40 Invoking Teststep: Then it should have "perfecto" in search results with arguments: [perfecto]
+13:12:40 Executing findElements parameters: {"using":"partial link text","value":"perfecto"}
+13:12:40 command: findElements[ param-1: {value=perfecto, using=partial link text}] Result: []
+13:12:41 command: findElement[ param-1: {value=q, using=name}] Result: id: 0.3959968485780898-1
+13:12:41 command: findElement[ param-1: By.name: q param-2: {}] Result: OK
+13:12:41 Executing sendKeysToElement element: By.name: q parameters: {"id":"0.3959968485780898-1","value":["perfecto mobile quantum"]}
+13:12:41 command: sendKeysToElement[ param-1: By.name: q param-2: {"id":"0.3959968485780898-1","value":["perfecto mobile quantum"]}] Result: element not interactable
+  (Session info: chrome=96.0.4664.104)
+  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Linux 4.1.13-101.fc21.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: '2401:4900:1c20:6d49:2419:5e35:ee6e:aef0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: Appium, browser: chrome_android, browserName: chrome, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://62.20..., --disable-features=Translate], w3c: false}, chromedriverPort: 18084, cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: Samsung Galaxy S20, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G981B, deviceName: RFCN20BJYZN, deviceOrientation: portrait, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: RFCN20BJYZN, enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, loggingPrefs: org.openqa.selenium.logging..., mobile: {browser: mobile, version: Samsung Galaxy S20-10.0}, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orientation: PORTRAIT, orig_os: android, osVersion: 10, os_version: 10.0, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 10, realMobile: true, securityToken: <<CQ_LAB_SECURITY_TOKEN>>, skipServerInstallation: true, statBarHeight: 77, systemPort: 8204, takesScreenshot: true, udid: RFCN20BJYZN, user: <<CQ_LAB_USER>>, version: , viewportRect: {height: 2101, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 20527262f94ae9d7855bbebf83a089223c4b5837
+13:12:41 Executing findElements parameters: {"using":"name","value":"q"}
+13:12:41 Executing findElements parameters: {"using":"partial link text","value":"perfecto"}
+13:12:42 command: findElements[ param-1: {value=perfecto, using=partial link text}] Result: [id: 5003, id: 5004, id: 5005, id: 5006, id: 5007, id: 5008]
+13:12:42 Executing findElement element: By.partialLinkText: perfecto parameters: {}
+13:12:42 Executing findElement parameters: {"using":"partial link text","value":"perfecto"}
+13:12:42 command: findElement[ param-1: {value=perfecto, using=partial link text}] Result: id: 5009
+13:12:42 command: findElement[ param-1: By.partialLinkText: perfecto param-2: {}] Result: OK
+13:12:42 Executing isElementDisplayed element: By.partialLinkText: perfecto parameters: {"id":"5009"}
+13:12:42 command: isElementDisplayed[ param-1: By.partialLinkText: perfecto param-2: {"id":"5009"}] Result: isElementDisplayed:true
+13:12:42 Executing findElement element: By.partialLinkText: perfecto parameters: {}
+13:12:42 Executing findElement parameters: {"using":"partial link text","value":"perfecto"}
+13:12:42 command: findElement[ param-1: {value=perfecto, using=partial link text}] Result: id: 5010
+13:12:42 command: findElement[ param-1: By.partialLinkText: perfecto param-2: {}] Result: OK
+13:12:42 Executing isElementDisplayed element: By.partialLinkText: perfecto parameters: {"id":"5010"}
+13:12:42 command: isElementDisplayed[ param-1: By.partialLinkText: perfecto param-2: {"id":"5010"}] Result: isElementDisplayed:true
+13:12:42 Completed Teststep: Then it should have "perfecto" in search results with arguments: [perfecto]
+13:12:42 Invoking Teststep: Then I am on Google Search Page
+13:12:42 Executing get parameters: {"url":"https://www.google.com/"}
+13:12:42 command: findElements[ param-1: {value=q, using=name}] Result: [id: 0.3959968485780898-1]
+13:12:42 Executing executeScript parameters: {"args":[{"element-6066-11e4-a52e-4f735466cecf":"0.3959968485780898-1","ELEMENT":"0.3959968485780898-1"}],"script":"arguments[0].scrollIntoView();"}
+13:12:44 command: get[ param-1: {url=https://www.google.com/}] Result: null
+13:12:44 Completed Teststep: Then I am on Google Search Page
+13:12:44 Competed scenario: Search Quantum with status SUCCESS
+13:12:44 Executing executeScript parameters: {"args":[],"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \"passed\", \"reason\": \"Test Passed!\"}}"}
+13:12:44 Failure Teststep: When I search for "perfecto mobile quantum" with arguments: [perfecto mobile quantum]
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.104)
+  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Linux 4.1.13-101.fc21.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: '2401:4900:1c20:6d49:2419:5e35:ee6e:aef0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: Appium, browser: chrome_android, browserName: chrome, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://62.20..., --disable-features=Translate], w3c: false}, chromedriverPort: 18084, cssSelectorsEnabled: true, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: Samsung Galaxy S20, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G981B, deviceName: RFCN20BJYZN, deviceOrientation: portrait, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: RFCN20BJYZN, enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, loggingPrefs: org.openqa.selenium.logging..., mobile: {browser: mobile, version: Samsung Galaxy S20-10.0}, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orientation: PORTRAIT, orig_os: android, osVersion: 10, os_version: 10.0, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 10, realMobile: true, securityToken: <<CQ_LAB_SECURITY_TOKEN>>, skipServerInstallation: true, statBarHeight: 77, systemPort: 8204, takesScreenshot: true, udid: RFCN20BJYZN, user: <<CQ_LAB_USER>>, version: , viewportRect: {height: 2101, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 20527262f94ae9d7855bbebf83a089223c4b5837
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:255) ~[quantum-support-1.23.0.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:276) ~[qaf-3.0.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106) ~[selenium-remote-driver-3.141.59.jar:?]
+	at com.quantum.pages.GooglePage.search(GooglePage.java:35) ~[classes/:?]
+	at com.quantum.steps.GoogleStepDefs.I_search_for(GoogleStepDefs.java:28) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) [qaf-3.0.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237) [qaf-3.0.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112) [testng-6.10.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:778) [qaf-3.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:632) [qaf-3.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421) [testng-6.10.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.10.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+13:12:44 Completed Teststep: When I search for "perfecto mobile quantum" with arguments: [perfecto mobile quantum]
+13:12:44 Competed scenario: Search Quantum with status FAILURE
+13:12:44 Executing screenshot parameters: {}
+13:12:45 Executing quit parameters: {}
+13:12:46 command: quit[ param-1: {}]
+13:12:46 UI-driver tear down complete...
+13:12:46 Executing executeScript parameters: {"args":[],"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \"failed\", \"reason\": \"Test Failed!\"}}"}
+13:12:47 Executing quit parameters: {}
+13:12:49 command: quit[ param-1: {}]
+13:12:49 UI-driver tear down complete...
+13:12:49 Unable to create testng-failed-qas.xml

@@ -1,0 +1,13 @@
+{
+  "name": "Appium Demo Suite",
+  "status": "fail",
+  "tests": [
+    "AppiumDemoSuite_IOSExpenseTrackerTest"
+  ],
+  "total": 2,
+  "pass": 0,
+  "fail": 1,
+  "skip": 1,
+  "startTime": 1649241477697,
+  "endTime": 1649241481643
+}

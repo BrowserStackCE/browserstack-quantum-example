@@ -23,7 +23,6 @@ public class ExpenseTrackerLoginPage extends WebDriverBaseTestPage<WebDriverTest
 		// TODO Auto-generated method stub
 		
 	}
-
 	@FindBy(locator = "login.email.textfield")
 	private QAFWebElement logintextfiled;
 	

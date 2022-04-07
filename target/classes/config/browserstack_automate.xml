@@ -12,7 +12,7 @@
 		<parameter name="driver.capabilities.os_version" value="10"></parameter>
 		<groups>
 			<run>
-				<include name="@WebSearch" />
+				<include name="@automate" />
 			</run>
 		</groups>
 		<classes>
@@ -25,7 +25,7 @@
 		<parameter name="driver.capabilities.os_version" value="14"></parameter>
 		<groups>
 			<run>
-				<include name="@WebSearch" />
+				<include name="@automate" />
 			</run>
 		</groups>
 		<classes>

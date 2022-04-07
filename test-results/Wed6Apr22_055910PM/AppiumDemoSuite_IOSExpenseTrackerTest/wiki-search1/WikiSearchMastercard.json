@@ -1,0 +1,110 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "clickOnSearchBox",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "setTimeout",
+          "args": [
+            "{implicit=0}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 695
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=org.wikipedia.alpha:id/search_container, using=id}"
+          ],
+          "result": "id: f84d0b1b-30a2-4427-8e4e-643a64875661",
+          "subLogs": [],
+          "duration": 517
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: org.wikipedia.alpha:id/search_container",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: org.wikipedia.alpha:id/search_container",
+            "{\"id\":\"f84d0b1b-30a2-4427-8e4e-643a64875661\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 518
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendSearchText",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=org.wikipedia.alpha:id/search_src_text, using=id}"
+          ],
+          "result": "id: af6cb317-4fb8-4884-b642-0b1a3738aae4",
+          "subLogs": [],
+          "duration": 1256
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: org.wikipedia.alpha:id/search_src_text",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: org.wikipedia.alpha:id/search_src_text",
+            "{\"id\":\"af6cb317-4fb8-4884-b642-0b1a3738aae4\",\"value\":[\"BrowserStack\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 489
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Click on Search box",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 23202,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When BrowserStack is searched",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1752,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

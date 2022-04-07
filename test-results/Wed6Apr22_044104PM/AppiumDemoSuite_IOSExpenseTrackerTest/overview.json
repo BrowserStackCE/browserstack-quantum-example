@@ -1,0 +1,41 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "classes": [
+    "wiki-search1"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": null,
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0",
+      "qaf-Build-Time": "26-Jul-2020 22:16:34",
+      "qaf-Version": "3.0"
+    },
+    "run-parameters": {
+      "baseurl": "",
+      "env.resources": "src/main/resources/ios",
+      "driver.capabilities.app": "bs://46553edf6879f14ae789e9ad862a88b1c6266b14",
+      "resources": "src/main/resources/ios",
+      "driver.capabilities.os_version": "12",
+      "driver.capabilities.automationName": "Appium",
+      "driver.capabilities.device": "Google Pixel 6",
+      "driver.capabilities.driverClass": "io.appium.java_client.android.AndroidDriver"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Eclipse Foundation",
+      "java.version": "11.0.12",
+      "os.arch": "x86_64",
+      "host": "Khalids-MacBook-Pro.local",
+      "os.name": "Mac OS X",
+      "user.name": "shaikhalid",
+      "os.version": "11.3"
+    }
+  },
+  "startTime": 1649243464659,
+  "endTime": 1649243464901
+}
